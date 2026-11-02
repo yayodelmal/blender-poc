@@ -1,0 +1,15 @@
+EXP-BPY-002 source preflight
+Observed at local date 2026-11-02, timezone America/Santiago (-0300)
+
+Source path:
+experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend
+
+Observed:
+size: 51810 bytes
+SHA-256: a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3
+
+Expected according to EXP-BPY-001/reports/RESULTADO.md:
+size: 51802 bytes
+SHA-256: 6a23e9e28bfa30043059184d21744b13416b9303da99f0a60a9f056d86eb5141
+
+Outcome: mismatch. The .blend was not opened, copied, or modified by EXP-BPY-002. Blender was not run against the source. No snapshot or candidate files were created.

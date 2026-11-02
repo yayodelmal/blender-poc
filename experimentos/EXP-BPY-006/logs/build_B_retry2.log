@@ -1,0 +1,21 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Traceback (most recent call last):
+  File "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/scripts/build_candidates.py", line 126, in <module>
+    elif mode=='B': make_gn(path)
+                    ~~~~~~~^^^^^^
+  File "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/scripts/build_candidates.py", line 99, in make_gn
+    lift_z_a=mathnode('ADD',inp.outputs['Base (m)'],half_relief,'Centro relieve')
+  File "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/scripts/build_candidates.py", line 69, in mathnode
+    n=gn_node(ng,'ShaderNodeMath',label); n.operation=op; n.inputs[1].default_value=b; l.new(a,n.inputs[0]); return n.outputs[0]
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: NodeSocketFloat.default_value expected a float type, not NodeSocketFloat
+
+Error: script failed, file: 'experimentos/EXP-BPY-006/scripts/build_candidates.py', exiting.
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/EXP-BPY-006/scripts/build_candidates.py", "--", "B", "experimentos/EXP-BPY-006/artifacts/EXP-BPY-006-20261102T175526Z_B_geometry_nodes.blend"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 582.485, "end_utc": "2026-11-02T17:59:52.766+00:00", "exit_code": 1, "label": "build_B_retry2", "log": "experimentos/EXP-BPY-006/logs/build_B_retry2.log", "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/build_B_retry2", "run_id": "EXP-BPY-006-20261102T175526Z", "start_utc": "2026-11-02T17:59:52.183+00:00"}

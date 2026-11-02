@@ -1,0 +1,4 @@
+start_utc=2026-11-02T13:52:12Z
+end_utc=2026-11-02T13:52:13Z
+exit_code=139
+command=Blender --background --factory-startup --gpu-backend opengl --python-expr import_bpy_probe

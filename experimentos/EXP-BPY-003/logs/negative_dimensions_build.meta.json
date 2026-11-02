@@ -1,0 +1,24 @@
+{
+  "label": "negative_dimensions_build",
+  "run_id": "EXP-BPY-003-20261102T144300Z",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+    "--python",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/make_negative_candidate.py",
+    "--",
+    "{\"kind\":\"dimension_out_of_tolerance\",\"source_file\":\"artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend\",\"output_path\":\"artifacts/EXP-BPY-003-20261102T144300Z_negative_dimensions.blend\"}"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+  "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_negative_dimensions_build",
+  "start_utc": "2026-11-02T14:57:56.993+00:00",
+  "end_utc": "2026-11-02T14:57:57.666+00:00",
+  "duration_ms": 671.943,
+  "exit_code": 0,
+  "log": "logs/negative_dimensions_build.log"
+}

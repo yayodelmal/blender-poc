@@ -1,0 +1,9 @@
+captured_local=2026-11-02T11:21:21-0300
+run_id=EXP-BPY-002-20261102T112024-0300
+source_path=/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend
+source_sha256_before_copy=a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3
+snapshot_path=/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-002/snapshots/EXP-BPY-002-20261102T112024-0300-snapshot_A.blend
+snapshot_size_bytes=51810
+snapshot_sha256=a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3
+copy_matches_approved_base=YES
+snapshot_integrity=PASS

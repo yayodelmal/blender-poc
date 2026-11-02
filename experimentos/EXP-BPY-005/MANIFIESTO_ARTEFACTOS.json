@@ -1,0 +1,236 @@
+{
+  "run_id": "EXP-BPY-005-20261102T153524Z",
+  "preparation_timestamp_utc": "2026-11-02T15:35:24Z",
+  "status": "NOT RUN",
+  "phase_1_status": "PENDIENTE_VALIDACION_FISICA",
+  "input": {
+    "path": "../EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl",
+    "size_bytes": 23984,
+    "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+    "verified_read_only_utc": "2026-11-02T15:35:24Z"
+  },
+  "prior_experiment": {
+    "id": "EXP-BPY-004",
+    "status": "INCONCLUSIVE",
+    "slicer": "Creality Print 7.3.0.6157 arm64",
+    "project_path": "../EXP-BPY-004/artifacts/EXP-BPY-004-20261102T121521-0300_slice_project.3mf",
+    "project_size_bytes": 24292,
+    "project_sha256": "659b0890553a1e30087d3c6d329520179306767597938d45d705c3d919a2b5a4",
+    "effective_settings_source": "Metadata/project_settings.config in saved 3MF; static read only",
+    "physical_print": false,
+    "physical_print_estimates": {
+      "time": "37 min 20 s",
+      "filament_g": 19.3,
+      "filament_m": 6.47
+    }
+  },
+  "configuration_discrepancy": {
+    "serialized_process_profile": "0.20mm Standard @Creality K1C 0.4 nozzle",
+    "ui_process_profile": "Macetero PLA 0.20mm K1C",
+    "resolution": "BLOCKED_IN_UI",
+    "blocks_print_preparation_approval": true
+  },
+  "artifacts_created": [
+    {
+      "path": "README.md",
+      "status": "created",
+      "sha256": "bacba447e77f8577580416e01d07d81e5d8ca8e83cec0c2cc94323c44a8a626c"
+    },
+    {
+      "path": "PROTOCOLO_IMPRESION.md",
+      "status": "created",
+      "sha256": "584eec94b315b1e44c1ba9ef5e28f01955488afaf3c218eefba28e8088fae896"
+    },
+    {
+      "path": "REGISTRO_IMPRESION.md",
+      "status": "created",
+      "sha256": "4f4e4ecb3cb0e16798f03afccc821fbdcdb409d3886a06f74bf5a0c015d57974"
+    },
+    {
+      "path": "MEDICIONES_FISICAS.md",
+      "status": "created",
+      "sha256": "b1a5c63d7413de20fad30810fe7096aceb35067cb8e095f5f3c1d3f5d8fa99e5"
+    },
+    {
+      "path": "EVALUACION_CALIDAD.md",
+      "status": "created",
+      "sha256": "ff4ed91b8f6c7165c91942e851be5d50d1d8ce27f734b460b898217110d7d485"
+    },
+    {
+      "path": "APRENDIZAJES_OPERATIVOS.md",
+      "status": "created",
+      "sha256": "784964d900ca0dff307ced129af6fbfb859055b03ef8ef9e6cac44a4f6453063"
+    },
+    {
+      "path": "reports/RESULTADO.md",
+      "status": "created",
+      "sha256": "e9fad6aa77d0234aa3df1b598aef295c4a889dce4ca964006af32d1a4ca3940e"
+    },
+    {
+      "path": "logs/preparacion_20261102T153524Z.txt",
+      "status": "created",
+      "sha256": "4c720bebc3f7ca133fb86c8b764d7aef9ffa91741077e5fc75b0ec31152c86f8"
+    },
+    {
+      "path": "logs/continuacion_20261102T154038Z.txt",
+      "status": "created",
+      "sha256": "0e23d76dbe2faf70b8fcfb7fad24b0da2f4f3e5a5237d2791becab05672573bf"
+    },
+    {
+      "path": "artifacts/README.md",
+      "status": "created",
+      "sha256": "f82d8b3c2df1df2217d88e9a1a9267e58f0d78ea18d4904b191174c4af5b0656"
+    },
+    {
+      "path": "evidencias/README.md",
+      "status": "created",
+      "sha256": "49d9c2051bf258a4d2b7dcb3ccea2aca4790750a99415ce43db183f36ca07306"
+    },
+    {
+      "path": "../EXP-BPY-004/reports/REVISION_CONFIG_3MF_20261102.md",
+      "status": "created",
+      "sha256": "3d552f95a7ff2f952024db9e82fbf13263321e386d43f543b4c172308928471b"
+    },
+    {
+      "path": "../EXP-BPY-004/logs/auditoria_3mf_20261102T153524Z.txt",
+      "status": "created",
+      "sha256": "fc7fce28371f3433ac22eba73da528fa0f785f19e8630c372b045fd00b355f50"
+    },
+    {
+      "path": "../EXP-BPY-004/reports/REPETICION_20261102T154038Z.md",
+      "status": "created",
+      "sha256": "7f850f6b1ec9179631ad2b8cdbfe75f8c8b14a33138c434fa5cfa11fea252d95"
+    },
+    {
+      "path": "../EXP-BPY-004/logs/ui_repeticion_20261102T154038Z.txt",
+      "status": "created",
+      "sha256": "9daa709d40af889cffbe7f55f428ca24941494b5a354c1071dde656a298b0cfc"
+    },
+    {
+      "path": "../EXP-BPY-004/artifacts/EXP-BPY-004-20261102T154038Z_input.stl",
+      "status": "created",
+      "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3"
+    },
+    {
+      "path": "../EXP-BPY-004/artifacts/EXP-BPY-004-20261102T154038Z_working_copy.3mf",
+      "status": "created",
+      "sha256": "659b0890553a1e30087d3c6d329520179306767597938d45d705c3d919a2b5a4"
+    }
+  ],
+  "human_approval": {
+    "print_configuration": "PENDING_PRESET_SELECTION_AND_REVIEW",
+    "physical_tolerance": "APPROVED ±0.5 mm on X/Y/Z",
+    "physical_print_start": "USER WILL INITIATE MANUALLY; AGENT MUST NOT START"
+  },
+  "notes": [
+    "No printer connection, send, or physical print was performed.",
+    "Standard profile selection did not open in the UI; slicing was stopped before Slice plate.",
+    "Historical EXP-BPY-004 report and original project were preserved; continuation uses a separate project copy.",
+    "Source STL, prior input and prior 3MF hashes verified unchanged."
+  ],
+  "verified_prior_artifacts": [
+    {
+      "experiment": "EXP-BPY-001",
+      "path": "../EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend",
+      "sha256": "a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3",
+      "integrity": "MATCH"
+    },
+    {
+      "experiment": "EXP-BPY-002",
+      "path": "../EXP-BPY-002/artifacts/EXP-BPY-002-20261102T112024-0300-revision_B.blend",
+      "sha256": "08a85ae9c8c413c24bc06fcfed0296b962e02dc3bc6a44af7373ee80c2b3a194",
+      "integrity": "MATCH"
+    },
+    {
+      "experiment": "EXP-BPY-003",
+      "path": "../EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+      "sha256": "09f7ee7c1ac207df00b1e8494e41b39a0c1eec4e048edbfcac61b71fd998495b",
+      "integrity": "MATCH"
+    },
+    {
+      "experiment": "EXP-BPY-003",
+      "path": "../EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl",
+      "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+      "integrity": "MATCH"
+    },
+    {
+      "experiment": "EXP-BPY-004",
+      "path": "../EXP-BPY-004/artifacts/EXP-BPY-004-20261102T121521-0300_input.stl",
+      "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+      "integrity": "MATCH"
+    },
+    {
+      "experiment": "EXP-BPY-004",
+      "path": "../EXP-BPY-004/artifacts/EXP-BPY-004-20261102T121521-0300_slice_project.3mf",
+      "sha256": "659b0890553a1e30087d3c6d329520179306767597938d45d705c3d919a2b5a4",
+      "integrity": "MATCH"
+    }
+  ],
+  "continuation_timestamp_utc": "2026-11-02T15:44:17Z",
+  "user_confirmations": {
+    "printer": "Creality K1C",
+    "nozzle_mm": 0.4,
+    "physical_filament": "Creality Hyper PLA",
+    "build_surface": "Original Creality K1C bed",
+    "physical_tolerance_mm_per_axis": 0.5,
+    "confirmed_by": "user",
+    "confirmed_on": "2026-11-02"
+  },
+  "continued_exp004_run": {
+    "run_id": "EXP-BPY-004-20261102T154038Z",
+    "status": "INCONCLUSIVE",
+    "slice": "NOT RUN",
+    "opened_project_copy": "../EXP-BPY-004/artifacts/EXP-BPY-004-20261102T154038Z_working_copy.3mf",
+    "opened_project_sha256": "659b0890553a1e30087d3c6d329520179306767597938d45d705c3d919a2b5a4",
+    "source_stl_copy": "../EXP-BPY-004/artifacts/EXP-BPY-004-20261102T154038Z_input.stl",
+    "source_stl_sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+    "visible_ui_process": "Macetero PLA 0.20mm K1C",
+    "target_profile_selection": "BLOCKED",
+    "physical_print": "NOT RUN",
+    "screenshots_persisted": false
+  },
+  "latest_exp004_run": {
+    "run_id": "EXP-BPY-004-20261102T155417Z",
+    "status": "INCONCLUSIVE",
+    "sliced_project": "../EXP-BPY-004/artifacts/EXP-BPY-004-20261102T155417Z_slice_project.3mf",
+    "sliced_project_size_bytes": 24252,
+    "sliced_project_sha256": "e0eaedbab02e51429a6bfe2dd254196d1cdd4d576584dcdefb3ce5bfe7c018bd",
+    "process_profile": "0.20mm Standard @Creality K1C 0.4 nozzle (observed active in UI)",
+    "effective_settings": {
+      "nozzle_temperature_c": 220,
+      "bed_temperature_c": 50,
+      "layer_height_mm": 0.2,
+      "walls": 2,
+      "infill": "grid 15%",
+      "support": false,
+      "brim": "automatic 5 mm"
+    },
+    "estimates": {
+      "time": "30 min 36 s",
+      "filament_g": 14.45,
+      "filament_m": 4.84,
+      "preview_layers": 20,
+      "preview_top_z_mm": 4.0
+    },
+    "saved_mesh_dimensions_mm": [80.0000076, 60.0000038, 5.00000048],
+    "user_reported_preview_confirmation": {
+      "maximum_layer": 25,
+      "maximum_z_mm": 5.0,
+      "brick_pattern_visible": true,
+      "source": "User confirmation; screenshot file not accessible in workspace yet"
+    },
+    "screenshot_attachment": {
+      "status": "NOT_ACCESSIBLE",
+      "path": null,
+      "sha256": null,
+      "action_required": "User must attach screenshot for persistent evidence and hash verification"
+    },
+    "unresolved": [
+      "Attach and verify persistent screenshot showing layer 25 / Z=5.00 mm and preview toolpaths",
+      "Physical bed surface cleanliness/preparation must be checked by operator before printing"
+    ],
+    "print_send": "NOT DONE",
+    "run_log": "../EXP-BPY-004/logs/run_20261102T155417Z.txt",
+    "run_report": "../EXP-BPY-004/reports/REPETICION_20261102T155417Z.md"
+  }
+}

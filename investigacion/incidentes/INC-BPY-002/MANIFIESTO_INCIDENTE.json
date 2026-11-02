@@ -1,0 +1,66 @@
+{
+  "incident_id": "INC-BPY-002",
+  "created_utc": "2026-11-02T15:51:23Z",
+  "status": "CURRENT STATE PRESERVED; RESTORATION NOT PERFORMED",
+  "affected_path": "experimentos/EXP-BPY-004/artifacts/EXP-BPY-004-20261102T154038Z_working_copy.3mf",
+  "expected_before": {
+    "size_bytes": 24292,
+    "sha256": "659b0890553a1e30087d3c6d329520179306767597938d45d705c3d919a2b5a4"
+  },
+  "observed_after": {
+    "size_bytes": 23873,
+    "sha256": "1a67df633765254308be33262862609f78e0520b405a95fb7593dc0c6d42d50f",
+    "mtime_local": "2026-11-02 12:50:04 -0300"
+  },
+  "unchanged_historical_project": {
+    "path": "experimentos/EXP-BPY-004/artifacts/EXP-BPY-004-20261102T121521-0300_slice_project.3mf",
+    "size_bytes": 24292,
+    "sha256": "659b0890553a1e30087d3c6d329520179306767597938d45d705c3d919a2b5a4"
+  },
+  "custody_evidence": {
+    "current_3mf_copy": {
+      "path": "evidencias/EXP-BPY-004_working_copy_CURRENT_20261102T155123Z.3mf",
+      "size_bytes": 23873,
+      "sha256": "1a67df633765254308be33262862609f78e0520b405a95fb7593dc0c6d42d50f"
+    },
+    "incident_log": {
+      "path": "logs/estado_archivos_20261102T155123Z.txt",
+      "size_bytes": 1325,
+      "sha256": "a2b6f15acc230d1f3066e3bb60337d231549793997a78ae31f4169f4950f99a1"
+    },
+    "incident_report": {
+      "path": "reports/INC-BPY-002_INTEGRIDAD_3MF.md",
+      "size_bytes": 5650,
+      "sha256": "d3f0959115b941e55d5ac80f86f2711eea57d2c7bb23f269926c0ff042038106"
+    }
+  },
+  "stl_checks": [
+    {
+      "path": "experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl",
+      "size_bytes": 23984,
+      "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3"
+    },
+    {
+      "path": "experimentos/EXP-BPY-004/artifacts/EXP-BPY-004-20261102T121521-0300_input.stl",
+      "size_bytes": 23984,
+      "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3"
+    }
+  ],
+  "serialized_settings": {
+    "default_print_profile": "0.20mm Standard @Creality K1C 0.4 nozzle",
+    "printer_model": "Creality K1C",
+    "nozzle_diameter_mm": "0.4",
+    "filament_profile": "Hyper PLA @Creality K1C 0.4 nozzle",
+    "nozzle_temperature_c": "220",
+    "bed_temperature_c": "50",
+    "layer_height_mm": "0.2",
+    "wall_loops": "2",
+    "infill": "15% grid",
+    "supports": "disabled"
+  },
+  "slice_artifact_present": false,
+  "historical_manifests_rewritten": false,
+  "restoration_performed": false,
+  "lamination_performed": false,
+  "printer_sent_or_printed": false
+}

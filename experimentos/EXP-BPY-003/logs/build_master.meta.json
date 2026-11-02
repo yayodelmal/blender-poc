@@ -1,0 +1,23 @@
+{
+  "label": "build_master",
+  "run_id": "EXP-BPY-003-20261102T144300Z",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/build_relief_plate.py",
+    "--",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A.blend"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+  "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_build_master",
+  "start_utc": "2026-11-02T14:46:20.442+00:00",
+  "end_utc": "2026-11-02T14:46:21.455+00:00",
+  "duration_ms": 1013.096,
+  "exit_code": 0,
+  "log": "logs/build_master.log"
+}

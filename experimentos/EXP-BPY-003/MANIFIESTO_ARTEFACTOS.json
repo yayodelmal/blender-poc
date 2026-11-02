@@ -1,0 +1,713 @@
+{
+  "run_id": "EXP-BPY-003-20261102T144300Z",
+  "captured_at": "2026-11-02T12:13:40-03:00",
+  "environment": {
+    "os": "macOS Apple Silicon",
+    "blender": "5.4.0 Alpha",
+    "blender_build_hash": "745ab9a3e3c5",
+    "python_integrated": "3.13.13",
+    "executable": "/Applications/Blender.app/Contents/MacOS/Blender",
+    "executable_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80"
+  },
+  "protected_previous_artifacts": [
+    {
+      "path": "experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend",
+      "size_bytes": 51810,
+      "sha256": "a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3",
+      "prior_approved_sha256": "a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3",
+      "unchanged": true
+    },
+    {
+      "path": "experimentos/EXP-BPY-002/artifacts/EXP-BPY-002-20261102T112024-0300-revision_B.blend",
+      "size_bytes": 52084,
+      "sha256": "08a85ae9c8c413c24bc06fcfed0296b962e02dc3bc6a44af7373ee80c2b3a194",
+      "prior_sha256": "08a85ae9c8c413c24bc06fcfed0296b962e02dc3bc6a44af7373ee80c2b3a194",
+      "unchanged": true
+    }
+  ],
+  "script_sha256": {
+    "scripts/build_relief_plate.py": "ac6a29f74447451f0d9a9613dfa07bd0a0f48b175f60ddfcf9989bb025c4ea03",
+    "scripts/diagnose_view_state.py": "4e435c727f220ed2218a08053e49327bd6fa5c8be3d5abeea5dacfaa64846f63",
+    "scripts/export_stl.py": "9c128cc868469820c4b99320f2820bbf099a2fd58a71bb1ebe7c84e6b98df422",
+    "scripts/make_negative_candidate.py": "6a84290253a15f2c12e922a298e8c9a5a22f7ae29310efbb3c8f949543dd228b",
+    "scripts/probe_stl_api.py": "b6556686d9d4eb6e511c288773b4995977b29952a09c0a2d19d586469de30b38",
+    "scripts/run_blender.py": "ab34215bc4dc543d3033129a9919e3fbbc186744de3f0acf57905c7906de790e",
+    "scripts/save_open_ready_copy.py": "87e46befe8ab71738ff538929ba3c5045fe38aea72b258e47c30581bbcd9fcf8",
+    "scripts/validate_relief_blend.py": "de60652fc714189a7283219d6b0b3a895db2ecd4b201adeddab4ad161f4b99ca",
+    "scripts/validate_stl.py": "fa34b08a5c6c44541a288755de20f6d35d431756ee3a6945c00f4f06df4f5560"
+  },
+  "artifacts": [
+    {
+      "path": "artifacts/EXP-BPY-003-20261102T144300Z_negative_dimensions.blend",
+      "size_bytes": 57107,
+      "sha256": "fb2f9e605d59bb802ca8e3d286d7d5e742492e702083b15a6847c082405e500b",
+      "role": "control negativo: X=80.05 mm"
+    },
+    {
+      "path": "artifacts/EXP-BPY-003-20261102T144300Z_negative_disconnected.blend",
+      "size_bytes": 57549,
+      "sha256": "0d0689e4af01ee23e564d7b52f5a707fddaa0f627b8b2a8cabdee3a2c48f4c44",
+      "role": "control negativo: ladrillo flotante"
+    },
+    {
+      "path": "artifacts/EXP-BPY-003-20261102T144300Z_negative_scale.stl",
+      "size_bytes": 23984,
+      "sha256": "5020809edae51c719f3b583b13177048ae9c1fcf6461f0200d87a29d461e2c6c",
+      "role": "control negativo: STL exportado con escala 1"
+    },
+    {
+      "path": "artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl",
+      "size_bytes": 23984,
+      "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+      "role": "STL validado, escala 1000, coordenadas numéricas mm"
+    },
+    {
+      "path": "artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A.blend",
+      "size_bytes": 55857,
+      "sha256": "9da4bb1767a30f15610a3d301d9bb2d6642cb49b4bfe3456146b2307f16dc0e1",
+      "role": "rechazado: mm tratados como unidades Blender; 28 componentes"
+    },
+    {
+      "path": "artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A_v2.blend",
+      "size_bytes": 55967,
+      "sha256": "c7b860465b7d9f24644f091b0e0d5797aa22418483e0da8361da5196b436bda9",
+      "role": "rechazado: dimensiones reducidas y componentes desconectados"
+    },
+    {
+      "path": "artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A_v3.blend",
+      "size_bytes": 57035,
+      "sha256": "09f7ee7c1ac207df00b1e8494e41b39a0c1eec4e048edbfcac61b71fd998495b",
+      "role": "geometría validada; revisión previa a snapshot y master"
+    },
+    {
+      "path": "artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+      "size_bytes": 57035,
+      "sha256": "09f7ee7c1ac207df00b1e8494e41b39a0c1eec4e048edbfcac61b71fd998495b",
+      "role": "maestro editable aceptado; PASS; encuadre original distante conservado"
+    },
+    {
+      "path": "artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_open_ready.blend",
+      "size_bytes": 56976,
+      "sha256": "ed81e6b94a1d4d546bee342908dbabe9499a15bd0264268c66c8068a5e31b8aa",
+      "role": "copia verificada con vista de apertura ajustada; no sustituye el hash del maestro original"
+    },
+    {
+      "path": "snapshots/EXP-BPY-003-20261102T144300Z_relief_plate_A_snapshot.blend",
+      "size_bytes": 57035,
+      "sha256": "09f7ee7c1ac207df00b1e8494e41b39a0c1eec4e048edbfcac61b71fd998495b",
+      "role": "snapshot inicial validado"
+    }
+  ],
+  "accepted_model_validation": {
+    "status": "PASS",
+    "dimensions_expected_mm": [
+      80,
+      60,
+      5
+    ],
+    "dimensions_observed_mm": [
+      80.00000566244125,
+      60.00000238418579,
+      5.000000353902578
+    ],
+    "tolerance_mm": 0.01,
+    "base_thickness_mm": 4,
+    "relief_height_mm": 1.0000003539025784,
+    "brick_count": 27,
+    "components": 1,
+    "vertices": 241,
+    "edges": 389,
+    "faces": 150,
+    "all_edges_manifold": true,
+    "nonadjacent_BVHTree_overlap_pairs": 0,
+    "signed_volume_mm3": 22879.203712268336,
+    "top_surface_area_mm2": 3679.1998718399554,
+    "semantic_state_sha256": "d0449eca2b21edcaf1ca04779dd21eabf6bf303d1d94d98416a9da507932b1ae"
+  },
+  "stl": {
+    "export_operator": "bpy.ops.wm.stl_export",
+    "global_scale": 1000,
+    "use_scene_unit": false,
+    "axes": {
+      "forward": "Y",
+      "up": "Z"
+    },
+    "numeric_unit_convention": "mm",
+    "independent_import_global_scale": 0.001,
+    "reimport_status": "PASS",
+    "reimport_dimensions_mm": [
+      80.00001311302185,
+      60.00000610947609,
+      5.000000819563866
+    ],
+    "reimport_components": 1,
+    "reimport_manifold": true,
+    "reimport_top_islands": 27,
+    "reimport_top_area_mm2": 3679.2007584408398,
+    "reimport_volume_mm3": 22879.209668045307
+  },
+  "negative_controls": {
+    "disconnected_brick": "DETECTED; validator FAIL expected",
+    "dimension_X_80_05": "DETECTED; validator FAIL expected",
+    "wrong_STL_scale_1": "DETECTED; imported dimensions 0.0800000 x 0.0600000 x 0.0050000 mm; validator FAIL expected"
+  },
+  "processes": [
+    {
+      "label": "build_master",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/build_relief_plate.py",
+        "--",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A.blend"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_build_master",
+      "start_utc": "2026-11-02T14:46:20.442+00:00",
+      "end_utc": "2026-11-02T14:46:21.455+00:00",
+      "duration_ms": 1013.096,
+      "exit_code": 0,
+      "log": "logs/build_master.log"
+    },
+    {
+      "label": "build_master_v2",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/build_relief_plate.py",
+        "--",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A_v2.blend"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_build_master_v2",
+      "start_utc": "2026-11-02T14:46:38.136+00:00",
+      "end_utc": "2026-11-02T14:46:38.726+00:00",
+      "duration_ms": 590.152,
+      "exit_code": 0,
+      "log": "logs/build_master_v2.log"
+    },
+    {
+      "label": "build_master_v3",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/build_relief_plate.py",
+        "--",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A_v3.blend"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_build_master_v3",
+      "start_utc": "2026-11-02T14:46:59.166+00:00",
+      "end_utc": "2026-11-02T14:46:59.799+00:00",
+      "duration_ms": 632.618,
+      "exit_code": 0,
+      "log": "logs/build_master_v3.log"
+    },
+    {
+      "label": "diagnose_open_ready_copy",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_open_ready.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/diagnose_view_state.py"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_diagnose_open_ready_copy",
+      "start_utc": "2026-11-02T15:12:12.585+00:00",
+      "end_utc": "2026-11-02T15:12:13.266+00:00",
+      "duration_ms": 680.381,
+      "exit_code": 0,
+      "log": "logs/diagnose_open_ready_copy.log"
+    },
+    {
+      "label": "diagnose_view_state",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/diagnose_view_state.py"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_diagnose_view_state",
+      "start_utc": "2026-11-02T15:03:24.534+00:00",
+      "end_utc": "2026-11-02T15:03:25.094+00:00",
+      "duration_ms": 559.844,
+      "exit_code": 0,
+      "log": "logs/diagnose_view_state.log"
+    },
+    {
+      "label": "export_stl_valid",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/export_stl.py",
+        "--",
+        "{\"output_path\":\"/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl\",\"global_scale\":1000}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_export_stl_valid",
+      "start_utc": "2026-11-02T14:58:17.732+00:00",
+      "end_utc": "2026-11-02T14:58:18.329+00:00",
+      "duration_ms": 596.664,
+      "exit_code": 0,
+      "log": "logs/export_stl_valid.log"
+    },
+    {
+      "label": "export_stl_wrong_scale",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/export_stl.py",
+        "--",
+        "{\"output_path\":\"/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_negative_scale.stl\",\"global_scale\":1}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_export_stl_wrong_scale",
+      "start_utc": "2026-11-02T14:58:17.732+00:00",
+      "end_utc": "2026-11-02T14:58:18.329+00:00",
+      "duration_ms": 596.672,
+      "exit_code": 0,
+      "log": "logs/export_stl_wrong_scale.log"
+    },
+    {
+      "label": "negative_dimensions_build",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/make_negative_candidate.py",
+        "--",
+        "{\"kind\":\"dimension_out_of_tolerance\",\"source_file\":\"artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend\",\"output_path\":\"artifacts/EXP-BPY-003-20261102T144300Z_negative_dimensions.blend\"}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_negative_dimensions_build",
+      "start_utc": "2026-11-02T14:57:56.993+00:00",
+      "end_utc": "2026-11-02T14:57:57.666+00:00",
+      "duration_ms": 671.943,
+      "exit_code": 0,
+      "log": "logs/negative_dimensions_build.log"
+    },
+    {
+      "label": "negative_disconnected_build",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/make_negative_candidate.py",
+        "--",
+        "{\"kind\":\"disconnected_brick\",\"source_file\":\"artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend\",\"output_path\":\"artifacts/EXP-BPY-003-20261102T144300Z_negative_disconnected.blend\"}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_negative_disconnected_build",
+      "start_utc": "2026-11-02T14:57:56.993+00:00",
+      "end_utc": "2026-11-02T14:57:57.666+00:00",
+      "duration_ms": 671.94,
+      "exit_code": 0,
+      "log": "logs/negative_disconnected_build.log"
+    },
+    {
+      "label": "reimport_stl_valid",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_stl.py",
+        "--",
+        "{\"stl_path\":\"/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl\",\"import_global_scale\":0.001,\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_top_islands\":27,\"expected_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_reimport_stl_valid",
+      "start_utc": "2026-11-02T14:58:26.146+00:00",
+      "end_utc": "2026-11-02T14:58:26.739+00:00",
+      "duration_ms": 593.343,
+      "exit_code": 1,
+      "log": "logs/reimport_stl_valid.log"
+    },
+    {
+      "label": "reimport_stl_valid_corrected",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_stl.py",
+        "--",
+        "{\"stl_path\":\"/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl\",\"import_global_scale\":0.001,\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_top_islands\":27,\"expected_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_reimport_stl_valid_corrected",
+      "start_utc": "2026-11-02T14:58:53.271+00:00",
+      "end_utc": "2026-11-02T14:58:53.898+00:00",
+      "duration_ms": 627.329,
+      "exit_code": 0,
+      "log": "logs/reimport_stl_valid_corrected.log"
+    },
+    {
+      "label": "reimport_stl_wrong_scale",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_stl.py",
+        "--",
+        "{\"stl_path\":\"/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_negative_scale.stl\",\"import_global_scale\":0.001,\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_top_islands\":27,\"expected_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_reimport_stl_wrong_scale",
+      "start_utc": "2026-11-02T14:58:26.145+00:00",
+      "end_utc": "2026-11-02T14:58:26.739+00:00",
+      "duration_ms": 593.333,
+      "exit_code": 1,
+      "log": "logs/reimport_stl_wrong_scale.log"
+    },
+    {
+      "label": "reimport_stl_wrong_scale_corrected",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_stl.py",
+        "--",
+        "{\"stl_path\":\"/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_negative_scale.stl\",\"import_global_scale\":0.001,\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_top_islands\":27,\"expected_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_reimport_stl_wrong_scale_corrected",
+      "start_utc": "2026-11-02T14:58:53.270+00:00",
+      "end_utc": "2026-11-02T14:58:53.899+00:00",
+      "duration_ms": 628.005,
+      "exit_code": 1,
+      "log": "logs/reimport_stl_wrong_scale_corrected.log"
+    },
+    {
+      "label": "save_open_ready_copy",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/save_open_ready_copy.py",
+        "--",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_open_ready.blend"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_save_open_ready_copy",
+      "start_utc": "2026-11-02T15:12:06.022+00:00",
+      "end_utc": "2026-11-02T15:12:06.813+00:00",
+      "duration_ms": 790.693,
+      "exit_code": 0,
+      "log": "logs/save_open_ready_copy.log"
+    },
+    {
+      "label": "stl_api_probe",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/probe_stl_api.py"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_stl_api_probe",
+      "start_utc": "2026-11-02T14:43:16.615+00:00",
+      "end_utc": "2026-11-02T14:43:17.181+00:00",
+      "duration_ms": 565.929,
+      "exit_code": 0,
+      "log": "logs/stl_api_probe.log"
+    },
+    {
+      "label": "validate_master",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_relief_blend.py",
+        "--",
+        "{\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_parameters_mm\":{\"plate_width\":80.0,\"plate_height\":60.0,\"base_thickness\":4.0,\"relief_height\":1.0,\"brick_length\":18.0,\"brick_height\":8.4,\"joint\":1.2,\"rows\":6,\"row_pitch\":9.6,\"brick_pitch_x\":19.2,\"overlap_into_base\":0.5,\"edge_margin\":0.6},\"expected_brick_count\":27,\"expected_brick_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_validate_master",
+      "start_utc": "2026-11-02T14:46:25.637+00:00",
+      "end_utc": "2026-11-02T14:46:26.204+00:00",
+      "duration_ms": 567.395,
+      "exit_code": 1,
+      "log": "logs/validate_master.log"
+    },
+    {
+      "label": "validate_master_v2",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A_v2.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_relief_blend.py",
+        "--",
+        "{\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_parameters_mm\":{\"plate_width\":80.0,\"plate_height\":60.0,\"base_thickness\":4.0,\"relief_height\":1.0,\"brick_length\":18.0,\"brick_height\":8.4,\"joint\":1.2,\"rows\":6,\"row_pitch\":9.6,\"brick_pitch_x\":19.2,\"overlap_into_base\":0.5,\"edge_margin\":0.6},\"expected_brick_count\":27,\"expected_brick_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_validate_master_v2",
+      "start_utc": "2026-11-02T14:46:38.758+00:00",
+      "end_utc": "2026-11-02T14:46:39.330+00:00",
+      "duration_ms": 571.769,
+      "exit_code": 1,
+      "log": "logs/validate_master_v2.log"
+    },
+    {
+      "label": "validate_master_v3",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A_v3.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_relief_blend.py",
+        "--",
+        "{\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_parameters_mm\":{\"plate_width\":80.0,\"plate_height\":60.0,\"base_thickness\":4.0,\"relief_height\":1.0,\"brick_length\":18.0,\"brick_height\":8.4,\"joint\":1.2,\"rows\":6,\"row_pitch\":9.6,\"brick_pitch_x\":19.2,\"overlap_into_base\":0.5,\"edge_margin\":0.6},\"expected_brick_count\":27,\"expected_brick_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_validate_master_v3",
+      "start_utc": "2026-11-02T14:46:59.831+00:00",
+      "end_utc": "2026-11-02T14:47:00.419+00:00",
+      "duration_ms": 588.138,
+      "exit_code": 0,
+      "log": "logs/validate_master_v3.log"
+    },
+    {
+      "label": "validate_model_master",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_relief_blend.py",
+        "--",
+        "{\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_parameters_mm\":{\"plate_width\":80.0,\"plate_height\":60.0,\"base_thickness\":4.0,\"relief_height\":1.0,\"brick_length\":18.0,\"brick_height\":8.4,\"joint\":1.2,\"rows\":6,\"row_pitch\":9.6,\"brick_pitch_x\":19.2,\"overlap_into_base\":0.5,\"edge_margin\":0.6},\"expected_brick_count\":27,\"expected_brick_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_validate_model_master",
+      "start_utc": "2026-11-02T14:56:49.573+00:00",
+      "end_utc": "2026-11-02T14:56:50.493+00:00",
+      "duration_ms": 919.795,
+      "exit_code": 0,
+      "log": "logs/validate_model_master.log"
+    },
+    {
+      "label": "validate_negative_dimensions",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_negative_dimensions.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_relief_blend.py",
+        "--",
+        "{\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_parameters_mm\":{\"plate_width\":80.0,\"plate_height\":60.0,\"base_thickness\":4.0,\"relief_height\":1.0,\"brick_length\":18.0,\"brick_height\":8.4,\"joint\":1.2,\"rows\":6,\"row_pitch\":9.6,\"brick_pitch_x\":19.2,\"overlap_into_base\":0.5,\"edge_margin\":0.6},\"expected_brick_count\":27,\"expected_brick_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_validate_negative_dimensions",
+      "start_utc": "2026-11-02T14:58:10.790+00:00",
+      "end_utc": "2026-11-02T14:58:11.393+00:00",
+      "duration_ms": 603.257,
+      "exit_code": 1,
+      "log": "logs/validate_negative_dimensions.log"
+    },
+    {
+      "label": "validate_negative_disconnected",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_negative_disconnected.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_relief_blend.py",
+        "--",
+        "{\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_parameters_mm\":{\"plate_width\":80.0,\"plate_height\":60.0,\"base_thickness\":4.0,\"relief_height\":1.0,\"brick_length\":18.0,\"brick_height\":8.4,\"joint\":1.2,\"rows\":6,\"row_pitch\":9.6,\"brick_pitch_x\":19.2,\"overlap_into_base\":0.5,\"edge_margin\":0.6},\"expected_brick_count\":27,\"expected_brick_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_validate_negative_disconnected",
+      "start_utc": "2026-11-02T14:58:10.790+00:00",
+      "end_utc": "2026-11-02T14:58:11.383+00:00",
+      "duration_ms": 592.801,
+      "exit_code": 1,
+      "log": "logs/validate_negative_disconnected.log"
+    },
+    {
+      "label": "validate_open_ready_copy",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_open_ready.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_relief_blend.py",
+        "--",
+        "{\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_parameters_mm\":{\"plate_width\":80.0,\"plate_height\":60.0,\"base_thickness\":4.0,\"relief_height\":1.0,\"brick_length\":18.0,\"brick_height\":8.4,\"joint\":1.2,\"rows\":6,\"row_pitch\":9.6,\"brick_pitch_x\":19.2,\"overlap_into_base\":0.5,\"edge_margin\":0.6},\"expected_brick_count\":27,\"expected_brick_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_validate_open_ready_copy",
+      "start_utc": "2026-11-02T15:12:13.300+00:00",
+      "end_utc": "2026-11-02T15:12:13.955+00:00",
+      "duration_ms": 654.832,
+      "exit_code": 0,
+      "log": "logs/validate_open_ready_copy.log"
+    },
+    {
+      "label": "validate_snapshot",
+      "run_id": "EXP-BPY-003-20261102T144300Z",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--python-exit-code",
+        "1",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/snapshots/EXP-BPY-003-20261102T144300Z_relief_plate_A_snapshot.blend",
+        "--python",
+        "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_relief_blend.py",
+        "--",
+        "{\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_parameters_mm\":{\"plate_width\":80.0,\"plate_height\":60.0,\"base_thickness\":4.0,\"relief_height\":1.0,\"brick_length\":18.0,\"brick_height\":8.4,\"joint\":1.2,\"rows\":6,\"row_pitch\":9.6,\"brick_pitch_x\":19.2,\"overlap_into_base\":0.5,\"edge_margin\":0.6},\"expected_brick_count\":27,\"expected_brick_top_area_mm2\":3679.2}"
+      ],
+      "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+      "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_validate_snapshot",
+      "start_utc": "2026-11-02T14:47:09.998+00:00",
+      "end_utc": "2026-11-02T14:47:10.562+00:00",
+      "duration_ms": 564.278,
+      "exit_code": 0,
+      "log": "logs/validate_snapshot.log"
+    }
+  ],
+  "external_write_note": "A temporary helper script /tmp/exp003_run_probe.sh was created during initial API probing and later removed. Blender profiles/cache files were confined under this experiment logs directory; no other external Blender write was observed.",
+  "limitations": [
+    "Blender 5.4.0 Alpha only; no stable version validation.",
+    "BVHTree overlap check excludes face pairs sharing vertices and is not a universal self-intersection proof.",
+    "No Creality Print slicing or physical print was performed.",
+    "STL carries no universal unit declaration; downstream software must apply the stated scale convention."
+  ],
+  "open_view_diagnosis": {
+    "original_layout_view_distance_m": 18.38804817199707,
+    "model_width_m": 0.08000000566244125,
+    "copy_layout_view_distance_m": 0.20000000298023224,
+    "copy_view_location_m": [
+      0.0,
+      0.0,
+      0.0024999999441206455
+    ],
+    "copy_gui_reopened_and_visible": true,
+    "master_geometry_hash_unchanged": "09f7ee7c1ac207df00b1e8494e41b39a0c1eec4e048edbfcac61b71fd998495b"
+  }
+}

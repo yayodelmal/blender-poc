@@ -1,0 +1,11 @@
+capture_local=2026-11-02T11:07:54-0300
+source=/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend
+size=51810
+mode=-rw-r--r--
+owner=yayo
+group=staff
+birth=2026-11-02T10:59:42-0300
+modify=2026-11-02T10:59:42-0300
+change=2026-11-02T10:59:42-0300
+access=2026-11-02T11:07:54-0300
+a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3  /Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend

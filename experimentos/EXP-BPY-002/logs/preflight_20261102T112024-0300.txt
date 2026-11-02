@@ -1,0 +1,12 @@
+captured_local=2026-11-02T11:20:54-0300
+run_id=EXP-BPY-002-20261102T112024-0300
+source_path=/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend
+regular_file=YES
+size_bytes=51810
+sha256=a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3
+file_type=Zstandard compressed data (v0.8+), Dictionary ID: None
+blender_path=/Applications/Blender.app/Contents/MacOS/Blender
+blender_version=Blender 5.4.0 Alpha
+blender_version_exit_code=0
+blender_executable_sha256=732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80
+preflight_status=READY

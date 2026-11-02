@@ -1,0 +1,9 @@
+run_id=EXP-BPY-004-20261102T121521-0300
+source=experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl
+source_size_bytes=23984
+source_sha256=c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3
+manifest_expected_sha256=c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3
+preflight_match=PASS
+copy_path=experimentos/EXP-BPY-004/artifacts/EXP-BPY-004-20261102T121521-0300_input.stl
+copy_size_bytes=23984
+copy_sha256=c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3

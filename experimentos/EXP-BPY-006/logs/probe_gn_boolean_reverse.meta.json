@@ -1,0 +1,21 @@
+{
+  "run_id": "EXP-BPY-006-20261102T175526Z",
+  "label": "probe_gn_boolean_reverse",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "experimentos/EXP-BPY-006/scripts/probe_gn_boolean.py"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/probe_gn_boolean_reverse",
+  "start_utc": "2026-11-02T18:08:33.909+00:00",
+  "end_utc": "2026-11-02T18:08:34.526+00:00",
+  "duration_ms": 617.252,
+  "exit_code": 0,
+  "log": "experimentos/EXP-BPY-006/logs/probe_gn_boolean_reverse.log"
+}

@@ -1,0 +1,19 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Traceback (most recent call last):
+  File "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/scripts/build_candidates.py", line 129, in <module>
+    elif mode=='B': make_gn(path)
+                    ~~~~~~~^^^^^^
+  File "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/scripts/build_candidates.py", line 105, in make_gn
+    boolean=gn_node(ng,'GeometryNodeMeshBoolean','Unión booleana'); boolean.operation='UNION'; l.new(base_t.outputs['Geometry'],boolean.inputs['Mesh 1']); l.new(lift.outputs['Geometry'],boolean.inputs['Mesh 2'])
+                                                                                                                                ~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "Mesh 1" not found'
+
+Error: script failed, file: 'experimentos/EXP-BPY-006/scripts/build_candidates.py', exiting.
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/EXP-BPY-006/scripts/build_candidates.py", "--", "B", "experimentos/EXP-BPY-006/artifacts/EXP-BPY-006-20261102T175526Z_B_geometry_nodes.blend"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 628.785, "end_utc": "2026-11-02T17:59:58.218+00:00", "exit_code": 1, "label": "build_B_retry3", "log": "experimentos/EXP-BPY-006/logs/build_B_retry3.log", "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/build_B_retry3", "run_id": "EXP-BPY-006-20261102T175526Z", "start_utc": "2026-11-02T17:59:57.589+00:00"}

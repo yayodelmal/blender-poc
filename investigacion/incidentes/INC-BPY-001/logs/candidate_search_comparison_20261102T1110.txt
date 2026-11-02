@@ -1,0 +1,32 @@
+capture_local=2026-11-02T11:10-0300
+
+Project blend candidates:
+./experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105833-0300.blend
+./experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend
+./investigacion/incidentes/INC-BPY-001/evidencias/maestro_actual_copia_20261102T110754-0300.blend
+
+Candidate hashes:
+6a23e9e28bfa30043059184d21744b13416b9303da99f0a60a9f056d86eb5141  experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105833-0300.blend
+a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3  experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend
+a5f0aa70db10127c973b69254c6f76a3f2656becfcf0a7b5104ffaaee16ecbc3  /Users/yayo/Projects/blender-poc/investigacion/incidentes/INC-BPY-001/evidencias/maestro_actual_copia_20261102T110754-0300.blend
+
+Source file metadata:
+path=experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend size=51810 mode=-rw-r--r-- owner=yayo group=staff birth=2026-11-02T10:59:42-0300 modify=2026-11-02T10:59:42-0300 change=2026-11-02T10:59:42-0300 access=2026-11-02T11:07:54-0300
+
+Binary comparison earlier-run candidate vs current designated run:
+differing_byte_positions=37154 first_difference_1based=14442 last_difference_1based=51802 buckets_1-12950=0 12951-25901=11397 25902-38851=12892 38852-51802=12865
+
+Header identification:
+experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend: Zstandard compressed data (v0.8+), Dictionary ID: None
+00000000: 28 b5 2f fd a0 41 06 01 00 25 37 00 4a 47 80 11  (./..A...%7.JG..
+
+Permissions and extended attributes:
+-rw-r--r--@ 1 yayo  staff  - 51810 Nov  2 10:59 experimentos/EXP-BPY-001/artifacts/EXP-BPY-001-20261102T105936-0300.blend
+	com.apple.provenance	   11 
+com.apple.provenance: 
+
+Final generator and validator hashes:
+33052ae3b1889e509768084959dfbe826b84546b7f9ecaec2372914a629f7d55  experimentos/EXP-BPY-001/scripts/generate_20261102T105936-0300.py
+9ee9dcd8282dc5ee194b15d60c9b7240a49d3e83ecea1e5804a7af694153e228  experimentos/EXP-BPY-001/scripts/reopen_validate_20261102T105936-0300.py
+
+Validation script write API scan:

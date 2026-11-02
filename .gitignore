@@ -1,0 +1,7 @@
+# macOS Finder metadata
+.DS_Store
+**/.DS_Store
+
+# Disposable Blender user profiles created for isolated experiments
+**/profiles/
+**/profile/

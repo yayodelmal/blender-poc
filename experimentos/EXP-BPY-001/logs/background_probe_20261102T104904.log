@@ -1,0 +1,10 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+Writing: /Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-001/artifacts/tmp/minimal/blender.crash.txt
+time: command terminated abnormally
+real 0.30
+user 0.27
+sys 0.02

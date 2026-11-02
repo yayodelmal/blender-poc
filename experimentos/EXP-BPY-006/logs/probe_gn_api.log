@@ -1,0 +1,12 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+NODE_SOCKET_PROBE GeometryNodeMeshBoolean INPUTS [('Mesh 1', 'Mesh 1', 'GEOMETRY', False), ('Mesh 2', 'Mesh 2', 'GEOMETRY', True), ('Self Intersection', 'Self Intersection', 'BOOLEAN', False), ('Hole Tolerant', 'Hole Tolerant', 'BOOLEAN', False)] OUTPUTS [('Mesh', 'Mesh', 'GEOMETRY'), ('Intersecting Edges', 'Intersecting Edges', 'BOOLEAN')]
+NODE_SOCKET_PROBE GeometryNodeMeshGrid INPUTS [('Size X', 'Size X', 'VALUE', False), ('Size Y', 'Size Y', 'VALUE', False), ('Vertices X', 'Vertices X', 'INT', False), ('Vertices Y', 'Vertices Y', 'INT', False)] OUTPUTS [('Mesh', 'Mesh', 'GEOMETRY'), ('UV Map', 'UV Map', 'VECTOR')]
+NODE_SOCKET_PROBE GeometryNodeMeshCube INPUTS [('Size', 'Size', 'VECTOR', False), ('Vertices X', 'Vertices X', 'INT', False), ('Vertices Y', 'Vertices Y', 'INT', False), ('Vertices Z', 'Vertices Z', 'INT', False)] OUTPUTS [('Mesh', 'Mesh', 'GEOMETRY'), ('UV Map', 'UV Map', 'VECTOR')]
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/EXP-BPY-006/scripts/probe_gn_api.py"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 579.792, "end_utc": "2026-11-02T18:00:06.727+00:00", "exit_code": 0, "label": "probe_gn_api", "log": "experimentos/EXP-BPY-006/logs/probe_gn_api.log", "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/probe_gn_api", "run_id": "EXP-BPY-006-20261102T175526Z", "start_utc": "2026-11-02T18:00:06.147+00:00"}

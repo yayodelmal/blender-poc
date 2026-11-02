@@ -1,0 +1,6 @@
+start_utc=2026-11-02T14:08:47Z
+end_utc=2026-11-02T14:08:48Z
+exit_code=0
+opened_copy=/Users/yayo/Projects/blender-poc/investigacion/incidentes/INC-BPY-001/evidencias/maestro_actual_copia_20261102T110754-0300.blend
+autoexec=disabled
+script=inspect_copy_readonly_20261102T110754.py

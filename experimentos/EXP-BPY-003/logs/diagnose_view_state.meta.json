@@ -1,0 +1,22 @@
+{
+  "label": "diagnose_view_state",
+  "run_id": "EXP-BPY-003-20261102T144300Z",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+    "--python",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/diagnose_view_state.py"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+  "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_diagnose_view_state",
+  "start_utc": "2026-11-02T15:03:24.534+00:00",
+  "end_utc": "2026-11-02T15:03:25.094+00:00",
+  "duration_ms": 559.844,
+  "exit_code": 0,
+  "log": "logs/diagnose_view_state.log"
+}

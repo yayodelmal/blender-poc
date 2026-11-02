@@ -1,0 +1,11 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Info: Saved as "EXP-BPY-006-20261102T175526Z_A_bpy_v2.blend"
+BUILD_A {"brick_count": 27, "parameters": {"base_mm": 4.0, "brick_x_mm": 15.0, "brick_y_mm": 7.0, "columns_even": 5, "columns_odd": 4, "height_mm": 60.0, "joint_mm": 1.2, "pitch_x_mm": 16.2, "pitch_y_mm": 8.2, "relief_mm": 1.0, "rows": 6, "width_mm": 80.0}, "path": "experimentos/EXP-BPY-006/artifacts/EXP-BPY-006-20261102T175526Z_A_bpy_v2.blend", "strategy": "full_rebuild"}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/EXP-BPY-006/scripts/build_candidates.py", "--", "A", "experimentos/EXP-BPY-006/artifacts/EXP-BPY-006-20261102T175526Z_A_bpy_v2.blend"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 674.273, "end_utc": "2026-11-02T18:07:27.685+00:00", "exit_code": 0, "label": "build_A_v2", "log": "experimentos/EXP-BPY-006/logs/build_A_v2.log", "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/build_A_v2", "run_id": "EXP-BPY-006-20261102T175526Z", "start_utc": "2026-11-02T18:07:27.011+00:00"}

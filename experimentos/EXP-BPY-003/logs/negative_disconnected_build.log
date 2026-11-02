@@ -1,0 +1,12 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+00:00.215  blend            | Read blend: "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend"
+Info: Saved as "EXP-BPY-003-20261102T144300Z_negative_disconnected.blend"
+EXP_BPY_003_NEGATIVE {"kind": "disconnected_brick", "objects": ["EXP-BPY-003_ReliefPlate", "NEGATIVE_DisconnectedBrick"], "output_path": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_negative_disconnected.blend", "source_file": "artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend", "status": "PASS"}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META start_utc=2026-11-02T14:57:56.993+00:00 end_utc=2026-11-02T14:57:57.666+00:00 duration_ms=671.940 exit_code=0

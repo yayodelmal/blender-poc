@@ -1,0 +1,216 @@
+{
+  "experiment": "EXP-BPY-004",
+  "run_id": "EXP-BPY-004-20261102T121521-0300",
+  "status": "PASS",
+  "status_basis": "Final Standard run satisfies digital slicing criteria; persistent screenshot added and verified",
+  "closure_run_id": "EXP-BPY-004-20261102T155417Z",
+  "created_at_local": "2026-11-02",
+  "application": {
+    "name": "Creality Print",
+    "version": "7.3.0.6157",
+    "architecture": "arm64",
+    "path": "/Applications/Creality Print.app"
+  },
+  "approved_input": {
+    "path": "../EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl",
+    "size_bytes": 23984,
+    "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+    "preflight": "PASS",
+    "final_integrity": "PASS"
+  },
+  "experimental_copy": {
+    "path": "artifacts/EXP-BPY-004-20261102T121521-0300_input.stl",
+    "size_bytes": 23984,
+    "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+    "matches_approved_input": true
+  },
+  "slicer_session": {
+    "printer": "Creality K1C",
+    "nozzle": "0.4-Standard",
+    "process_preset": "Macetero PLA 0.20mm K1C",
+    "process_preset_standard_equivalence": "UNVERIFIED",
+    "filament": "Hyper PLA",
+    "layer_height_mm": 0.2,
+    "initial_layer_height_mm": 0.2,
+    "dimensions_imported_mm": [
+      80.0,
+      60.0,
+      5.0
+    ],
+    "preview_layers": 25,
+    "estimated_time": "37m20s",
+    "estimated_filament_g": 19.3,
+    "estimated_filament_length_m": 6.47,
+    "observed_bed_message": "please apply glue before print",
+    "slice_completed": true,
+    "relief_27_visually_observed": true,
+    "physical_print": false,
+    "sent_to_printer": false
+  },
+  "artifacts": [
+    {
+      "path": "artifacts/EXP-BPY-004-20261102T121521-0300_input.stl",
+      "size_bytes": 23984,
+      "sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+      "role": "read-only experimental copy of approved STL"
+    },
+    {
+      "path": "artifacts/EXP-BPY-004-20261102T121521-0300_slice_project.3mf",
+      "size_bytes": 24292,
+      "sha256": "659b0890553a1e30087d3c6d329520179306767597938d45d705c3d919a2b5a4",
+      "role": "saved Creality Print project"
+    }
+  ],
+  "evidence": {
+    "screenshots_saved": true,
+    "final_run_screenshot": {
+      "path": "evidencias/Captura de pantalla 2026-11-02 a la(s) 1.08.30 p.m..png",
+      "size_bytes": 1853953,
+      "sha256": "618f70d7d0ac9843a667a203a2c727153556a6c4d1f0618c43553506388a30be",
+      "dimensions_px": [3024, 1964],
+      "visual_checks": [
+        "Preview active",
+        "K1C printer and 0.4-Standard nozzle",
+        "Smooth PEI Plate / High Temp bed selection",
+        "Hyper PLA filament",
+        "0.20mm Standard @Creality K1C 0.4 nozzle process",
+        "Layer range 1 / Z 0.20 mm through 25 / Z 5.00 mm",
+        "G-code Preview estimates 30m36s, 14.45 g, 4.84 m",
+        "Brick-pattern toolpaths visible"
+      ],
+      "source": "User-provided screenshot, visually inspected in workspace"
+    },
+    "ui_observations_log": "logs/ui_observaciones.txt",
+    "preflight_log": "logs/preflight_20261102T121521-0300.txt",
+    "inventory_log": "logs/inventory_creality_print_20261102T121521-0300.txt"
+  },
+  "limitations": [
+    "Selected process preset is custom and was not verified equivalent to an official standard PLA preset.",
+    "Temperatures, wall count, infill density/pattern, detailed speeds, supports, and complete warning audit were not captured.",
+    "No persistent screenshots were saved.",
+    "Slicing does not validate physical printability or adhesion."
+  ],
+  "additional_runs": [
+    {
+      "run_id": "EXP-BPY-004-20261102T154038Z",
+      "status": "PASS",
+      "started": "2026-11-02T15:40:38Z",
+      "project_copy": "artifacts/EXP-BPY-004-20261102T154038Z_working_copy.3mf",
+      "project_copy_sha256": "659b0890553a1e30087d3c6d329520179306767597938d45d705c3d919a2b5a4",
+      "input_copy": "artifacts/EXP-BPY-004-20261102T154038Z_input.stl",
+      "input_copy_sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+      "ui_observed": {
+        "printer": "Creality K1C",
+        "nozzle": "0.4-Standard",
+        "filament": "Hyper PLA",
+        "bed": "Smooth PEI Plate / High Temp (truncated UI label)",
+        "process": "Macetero PLA 0.20mm K1C",
+        "dimensions_mm": [
+          80,
+          60,
+          5
+        ],
+        "triangles": 478,
+        "volume_mm3": 22879.2,
+        "warning": "please apply glue before print"
+      },
+      "target_process_profile": "0.20mm Standard @Creality K1C 0.4 nozzle",
+      "target_selection": "BLOCKED",
+      "slice": "NOT RUN",
+      "persistent_screenshots": false,
+      "report": "reports/REPETICION_20261102T154038Z.md",
+      "log": "logs/ui_repeticion_20261102T154038Z.txt"
+    },
+    {
+      "run_id": "EXP-BPY-004-20261102T155417Z",
+      "status": "INCONCLUSIVE",
+      "started": "2026-11-02T15:54:17Z",
+      "project_input": "artifacts/EXP-BPY-004-20261102T155417Z_working_copy.3mf",
+      "project_input_sha256": "1a67df633765254308be33262862609f78e0520b405a95fb7593dc0c6d42d50f",
+      "source_stl_copy": "artifacts/EXP-BPY-004-20261102T155417Z_input.stl",
+      "source_stl_sha256": "c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3",
+      "sliced_project": "artifacts/EXP-BPY-004-20261102T155417Z_slice_project.3mf",
+      "sliced_project_size_bytes": 24252,
+      "sliced_project_sha256": "e0eaedbab02e51429a6bfe2dd254196d1cdd4d576584dcdefb3ce5bfe7c018bd",
+      "ui_observed": {
+        "application": "Creality Print 7.3.0.6157 arm64",
+        "printer": "Creality K1C",
+        "nozzle": "0.4-Standard",
+        "bed": "Smooth PEI Plate / High Temp (truncated UI label; Creality Smooth PEI Plate graphic)",
+        "filament": "Hyper PLA",
+        "process": "0.20mm Standard @Creality K1C 0.4 nozzle",
+        "warning": "please apply glue before print",
+        "slice_completed": true,
+        "visible_brick_paths_count": 27,
+        "preview_layer_readout": "Verified range: first layer 1 / Z 0.20 mm; maximum layer 25 / Z 5.00 mm",
+        "estimated_time": "30m36s",
+        "estimated_filament_g": 14.45,
+        "estimated_filament_m": 4.84,
+        "physical_print": false,
+        "sent_to_printer": false
+      },
+      "serialized_effective_settings": {
+        "nozzle_temperature_c": 220,
+        "bed_temperature_c": 50,
+        "layer_height_mm": 0.2,
+        "initial_layer_height_mm": 0.2,
+        "wall_loops": 2,
+        "infill": "grid 15%",
+        "supports": false,
+        "brim": "auto, 5 mm",
+        "speeds_mm_s": {
+          "outer_wall": 200,
+          "inner_wall": 250,
+          "sparse_infill": 270,
+          "initial_layer": 60,
+          "initial_layer_infill": 60,
+          "top_surface": 200,
+          "travel": 500
+        }
+      },
+      "model_dimensions_mm_from_saved_3mf_mesh": [80.0000076, 60.0000038, 5.00000048],
+      "height_discrepancy": {
+        "historical_observation": "Selected slider position 20 / Z 4.00 mm",
+        "resolution": "This was the selected slider position rather than its upper bound; screenshot verifies 25 / Z 5.00 mm",
+        "resolution_status": "VERIFIED_BY_PERSISTENT_SCREENSHOT"
+      },
+      "user_reported_preview_confirmation": {
+        "printer": "Creality K1C",
+        "nozzle": "0.4-Standard",
+        "filament": "Hyper PLA",
+        "bed": "Smooth PEI Plate / High Temp",
+        "process": "0.20mm Standard @Creality K1C 0.4 nozzle",
+        "layer_height_mm": 0.2,
+        "maximum_layer": 25,
+        "maximum_z_mm": 5.0,
+        "estimated_time": "30m36s",
+        "filament_g": 14.45,
+        "filament_m": 4.84,
+        "brick_pattern_visible": true,
+        "source": "User report corroborated by persisted screenshot"
+      },
+      "screenshot_attachment": {
+        "status": "VERIFIED",
+        "path": "evidencias/Captura de pantalla 2026-11-02 a la(s) 1.08.30 p.m..png",
+        "size_bytes": 1853953,
+        "sha256": "618f70d7d0ac9843a667a203a2c727153556a6c4d1f0618c43553506388a30be",
+        "dimensions_px": [3024, 1964]
+      },
+      "slicer_blocking_errors": "No blocking slicing error was recorded; the known warning is the bed adhesive recommendation",
+      "bed_warning": {
+        "message": "please apply glue before print",
+        "classification": "bed-surface preparation recommendation, not a slicer failure",
+        "physical_check_before_print": "Identify the mounted smooth PEI side and ensure it is clean; follow the K1C manual and the operator's decision on adhesive"
+      },
+      "persistent_layer_screenshot": "PASS",
+      "project_thumbnail": {
+        "path": "evidencias/EXP-BPY-004-20261102T155417Z_project_thumbnail.png",
+        "size_bytes": 3506,
+        "sha256": "852f8755c43f053a5c97b9742f31987e4a16d7a93e2aa7ca82b9b08445766dd9",
+        "role": "3MF generated model thumbnail, not a screenshot of toolpaths"
+      },
+      "report": "reports/REPETICION_20261102T155417Z.md",
+      "log": "logs/run_20261102T155417Z.txt"
+    }
+  ]
+}

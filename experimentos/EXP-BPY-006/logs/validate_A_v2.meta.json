@@ -1,0 +1,23 @@
+{
+  "run_id": "EXP-BPY-006-20261102T175526Z",
+  "label": "validate_A_v2",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "experimentos/EXP-BPY-006/scripts/validate_candidate.py",
+    "--",
+    "experimentos/EXP-BPY-006/artifacts/EXP-BPY-006-20261102T175526Z_A_bpy_v2.blend"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/validate_A_v2",
+  "start_utc": "2026-11-02T18:07:29.563+00:00",
+  "end_utc": "2026-11-02T18:07:30.145+00:00",
+  "duration_ms": 581.307,
+  "exit_code": 0,
+  "log": "experimentos/EXP-BPY-006/logs/validate_A_v2.log"
+}

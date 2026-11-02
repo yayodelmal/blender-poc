@@ -1,0 +1,10 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+GN_BOOLEAN_PROBE {"components": 1, "dims_mm": [79.99999821186066, 59.99999865889549, 4.000000189989805], "faces": 6, "links": [["MESH_PRIMITIVE_CUBE", "TRANSFORM_GEOMETRY", "Geometry"], ["MESH_PRIMITIVE_CUBE", "TRANSFORM_GEOMETRY", "Geometry"], ["TRANSFORM_GEOMETRY", "MESH_BOOLEAN", "Mesh 1"], ["TRANSFORM_GEOMETRY", "MESH_BOOLEAN", "Mesh"], ["MESH_BOOLEAN", "GROUP_OUTPUT", "Geometry"]], "operation": "UNION", "vertices": 8}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/EXP-BPY-006/scripts/probe_gn_boolean.py"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 617.252, "end_utc": "2026-11-02T18:08:34.526+00:00", "exit_code": 0, "label": "probe_gn_boolean_reverse", "log": "experimentos/EXP-BPY-006/logs/probe_gn_boolean_reverse.log", "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/probe_gn_boolean_reverse", "run_id": "EXP-BPY-006-20261102T175526Z", "start_utc": "2026-11-02T18:08:33.909+00:00"}

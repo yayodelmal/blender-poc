@@ -1,0 +1,24 @@
+{
+  "run_id": "EXP-BPY-006-20261102T175526Z",
+  "label": "build_B_retry3",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "experimentos/EXP-BPY-006/scripts/build_candidates.py",
+    "--",
+    "B",
+    "experimentos/EXP-BPY-006/artifacts/EXP-BPY-006-20261102T175526Z_B_geometry_nodes.blend"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/build_B_retry3",
+  "start_utc": "2026-11-02T17:59:57.589+00:00",
+  "end_utc": "2026-11-02T17:59:58.218+00:00",
+  "duration_ms": 628.785,
+  "exit_code": 1,
+  "log": "experimentos/EXP-BPY-006/logs/build_B_retry3.log"
+}

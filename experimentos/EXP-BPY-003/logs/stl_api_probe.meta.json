@@ -1,0 +1,21 @@
+{
+  "label": "stl_api_probe",
+  "run_id": "EXP-BPY-003-20261102T144300Z",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/probe_stl_api.py"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+  "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_stl_api_probe",
+  "start_utc": "2026-11-02T14:43:16.615+00:00",
+  "end_utc": "2026-11-02T14:43:17.181+00:00",
+  "duration_ms": 565.929,
+  "exit_code": 0,
+  "log": "logs/stl_api_probe.log"
+}

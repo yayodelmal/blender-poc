@@ -1,0 +1,10 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+00:00.198  blend            | Read blend: "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-002/artifacts/EXP-BPY-002-20261102T112024-0300-revision_B.blend"
+Info: Saved as "EXP-BPY-002-20261102T112024-0300-negative_X55.blend"
+EXP_BPY_002_EDIT {"axis_changed": "x", "dimensions_after_mm": {"x": 54.999999701976776, "y": 50.00000074505806, "z": 70.00000029802322}, "dimensions_before_mm": {"x": 50.00000074505806, "y": 50.00000074505806, "z": 70.00000029802322}, "mesh_name": "EXP-BPY-001_Cube_20261102T105936_Mesh", "mesh_pointer_preserved": true, "object_name": "EXP-BPY-001_Cube_20261102T105936", "object_pointer_preserved": true, "parameters_after_mm": {"x": 55.0, "y": 50.0, "z": 70.0}, "python_version": "3.13.13", "revision_base_sha256": "b83691713bb55f48466b978000b28fbf77fd975c8e4bb36333b8e121261148e0", "revision_id": "EXP-BPY-002-20261102T112024-0300-NEGATIVE_X55", "saved_candidate": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-002/artifacts/EXP-BPY-002-20261102T112024-0300-negative_X55.blend", "source_file": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-002/artifacts/EXP-BPY-002-20261102T112024-0300-revision_B.blend", "status": "PASS", "target_mm": 55.0, "vertex_count_preserved": true}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit

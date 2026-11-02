@@ -1,0 +1,37 @@
+EXP-BPY-004 run_id=EXP-BPY-004-20261102T155417Z
+Timestamps (UTC): started 2026-11-02T15:54:17Z; observed/saved 2026-11-02T15:58:15Z
+Application: Creality Print 7.3.0.6157 arm64 (existing inventory; app UI used)
+
+Preflight:
+- Preserved Standard 3MF: investigacion/incidentes/INC-BPY-002/evidencias/EXP-BPY-004_working_copy_CURRENT_20261102T155123Z.3mf
+  23,873 bytes; SHA-256 1a67df633765254308be33262862609f78e0520b405a95fb7593dc0c6d42d50f (MATCH)
+- Approved STL: experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl
+  23,984 bytes; SHA-256 c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3 (MATCH)
+- New run copies created without overwriting prior files:
+  artifacts/EXP-BPY-004-20261102T155417Z_working_copy.3mf (23,873 bytes; SHA-256 1a67df633765254308be33262862609f78e0520b405a95fb7593dc0c6d42d50f)
+  artifacts/EXP-BPY-004-20261102T155417Z_input.stl (23,984 bytes; SHA-256 c6342d689ef70742ae0f9b3d6bbbf32b4f0f542ef7a5b6be2645f3205755b3d3)
+
+UI observations in Creality Print, window EXP-BPY-004-20261102T155417Z_working_copy:
+- Active printer shown: Creality K1C.
+- Bed type shown: Smooth PEI Plate / High Temp (label truncated); bed graphic says Creality Smooth PEI Plate.
+- Nozzle shown: 0.4-Standard.
+- Filament shown: Hyper PLA.
+- Process selector visibly showed: 0.20mm Standard @Creality K1C 0.4 nozzle.
+- Warning shown: "please apply glue before print".
+- Layer height and first layer height shown: 0.2 mm.
+- Slicing completed and UI changed to Preview.
+- G-code Preview showed: Printing Time 30m36s; Filament Wt 14.45 g; Filament Length 4.84 m.
+- Preview showed the staggered brick toolpath pattern. Visually counted pattern is 27 (rows 5/4 alternating); this was an on-screen observation, not an automated path segmentation.
+- Preview layer control showed layer 20 / Z=4.00 mm at its upper end, while the source geometry bounding box is 80.0000076 x 60.0000038 x 5.00000048 mm. This is unresolved; it may indicate an incomplete/incorrect slice or a UI interpretation issue. No claim that the sliced Z extent is correct.
+- Slice was performed on the isolated copy. No Send print action, printer connection, or physical printing occurred.
+
+Saved 3MF project:
+- artifacts/EXP-BPY-004-20261102T155417Z_slice_project.3mf
+- 24,252 bytes; SHA-256 e0eaedbab02e51429a6bfe2dd254196d1cdd4d576584dcdefb3ce5bfe7c018bd
+- ZIP contents include Metadata/project_settings.config and Metadata/plate_1.png, but no G-code file. Thus the saved project preserves settings/model metadata, not a standalone toolpath artifact.
+- Static settings read from the saved 3MF: Standard process profile ID; K1C 0.4 nozzle printer ID; Hyper PLA profile; PLA; nozzle 220 C (including first layer); hot plate 50 C (including first layer); layer 0.20 mm; 2 wall loops; grid sparse infill 15%; supports disabled; auto brim width 5 mm; speeds exterior 200, inner 250, sparse infill 270, first layer 60, first-layer infill 60, top surface 200, travel 500 mm/s.
+- Saved project mesh has 241 vertices, 478 triangles, and axis-aligned extents X=80.0000076, Y=60.0000038, Z=5.00000048 mm. This measures stored model geometry; it does not resolve preview/toolpath Z.
+- Extracted app-generated 3MF plate thumbnail to evidencias/EXP-BPY-004-20261102T155417Z_project_thumbnail.png (3,506 bytes; SHA-256 852f8755c43f053a5c97b9742f31987e4a16d7a93e2aa7ca82b9b08445766dd9). It is a model thumbnail, not a screenshot or layer-path capture.
+- Attempted macOS screenshot persistence with screencapture; it failed with "could not create image from display". No screenshot is claimed as saved.
+
+Assessment: INCONCLUSIVE. Active profile and slice completion are verified, and visible paths show the brick pattern, but the 4.00 mm preview ceiling vs 5.00 mm model height must be resolved, and no persistent layer-preview screenshot/G-code evidence is available. Historical 3MF and approved STL hashes remain unchanged at final check.

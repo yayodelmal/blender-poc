@@ -1,0 +1,23 @@
+{
+  "label": "reimport_stl_valid_corrected",
+  "run_id": "EXP-BPY-003-20261102T144300Z",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_stl.py",
+    "--",
+    "{\"stl_path\":\"/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl\",\"import_global_scale\":0.001,\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_top_islands\":27,\"expected_top_area_mm2\":3679.2}"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+  "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_reimport_stl_valid_corrected",
+  "start_utc": "2026-11-02T14:58:53.271+00:00",
+  "end_utc": "2026-11-02T14:58:53.898+00:00",
+  "duration_ms": 627.329,
+  "exit_code": 0,
+  "log": "logs/reimport_stl_valid_corrected.log"
+}

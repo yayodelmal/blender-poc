@@ -1,0 +1,20 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Traceback (most recent call last):
+  File "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_stl.py", line 130, in <module>
+    main()
+    ~~~~^^
+  File "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_stl.py", line 126, in main
+    raise RuntimeError("Imported STL validation failed")
+RuntimeError: Imported STL validation failed
+EXP_BPY_003_STL_VALIDATION {"blender_version": "5.4.0 Alpha", "center_mm": [0.0, 0.0, 2.500000409781933], "components": 1, "dimensions_mm": {"x": 80.00001311302185, "y": 60.00000610947609, "z": 5.000000819563866}, "edges": 717, "faces": 478, "findings": [{"check": "one_imported_mesh", "observed": ["EXP-BPY-003-20261102T144300Z_relief_plate"], "pass": true}, {"check": "dimensions_mm", "deviation_mm": {"x": 1.3113021850585938e-05, "y": 6.109476089477539e-06, "z": 8.195638656616211e-07}, "expected": {"x": 80, "y": 60, "z": 5}, "observed": {"x": 80.00001311302185, "y": 60.00000610947609, "z": 5.000000819563866}, "pass": true, "tolerance_mm": 0.01}, {"check": "connected_components", "expected": 1, "observed": 1, "pass": true}, {"all_edges_manifold": true, "check": "manifold", "pass": true}, {"check": "consistent_normals_and_volume", "contiguous": true, "pass": true, "signed_volume_mm3": 22879205234909.336}, {"check": "nondegenerate", "pass": true, "tiny_edges": 0, "tiny_faces": 0}, {"check": "relief_preserved", "expected_top_area_mm2": 3679.2, "expected_top_islands": 27, "observed_top_area_mm2": 3679200408.935547, "observed_top_islands": 27, "pass": false}, {"center_mm": [0.0, 0.0, 2.500000409781933], "check": "placement", "min_z_mm": 0.0, "pass": true}], "import_global_scale": 0.001, "run_id": "EXP-BPY-003-20261102T144300Z", "signed_volume_mm3": 22879205234909.336, "status": "FAIL", "stl_path": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate.stl", "top_area_mm2": 3679200408.935547, "top_surface_islands": 27, "unit_convention": "STL numeric coordinates are mm; import scale 0.001 converts numeric mm to Blender metres", "vertices": 241}
+
+Error: script failed, file: '/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_stl.py', exiting.
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+Timer 'STL Import' took 1.35 ms
+
+Blender quit
+
+RUN_META start_utc=2026-11-02T14:58:26.146+00:00 end_utc=2026-11-02T14:58:26.739+00:00 duration_ms=593.343 exit_code=1

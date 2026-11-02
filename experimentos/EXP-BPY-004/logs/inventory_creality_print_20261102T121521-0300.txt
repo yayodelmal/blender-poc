@@ -1,0 +1,5 @@
+com.creality.crealityprint
+7.3.0.6157
+7.3.0.6157
+bundle_path=/Applications/Creality Print.app
+/Applications/Creality Print.app/Contents/MacOS/CrealityPrint: Mach-O 64-bit executable arm64

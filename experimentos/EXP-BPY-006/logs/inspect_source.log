@@ -1,0 +1,10 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+00:00.303  reports          | ERROR File format is not supported in file "/Applications/Blender.app/Contents/MacOS/Blender"
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"command": ["/Applications/Blender.app/Contents/MacOS/Blender", "/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "experimentos/EXP-BPY-006/snapshots/EXP-BPY-006-20261102T175526Z_source_snapshot.blend", "--python", "experimentos/EXP-BPY-006/scripts/inspect_base.py", "--", "EXP-BPY-006-20261102T175526Z"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 686.693, "end_utc": "2026-11-02T17:56:23.903+00:00", "exit_code": 1, "label": "inspect_source", "log": "experimentos/EXP-BPY-006/logs/inspect_source.log", "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/inspect_source", "run_id": "EXP-BPY-006-20261102T175526Z", "start_utc": "2026-11-02T17:56:23.216+00:00"}

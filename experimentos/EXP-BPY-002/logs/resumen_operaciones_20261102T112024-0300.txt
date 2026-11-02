@@ -1,0 +1,26 @@
+run_id=EXP-BPY-002-20261102T112024-0300
+registro_local=2026-11-02T11:34:49-0300
+blender=/Applications/Blender.app/Contents/MacOS/Blender
+blender_version=5.4.0 Alpha build 745ab9a3e3c5
+python=3.13.13
+modo=background; --factory-startup; --disable-autoexec; --python-exit-code 1
+perfiles HOME/config/scripts/data/tmp=directorios unicos debajo de experimentos/EXP-BPY-002/logs
+
+operacion | log | codigo | estado
+preflight | logs/preflight_20261102T112024-0300.txt | 0 | PASS
+version Blender | logs/blender_version_20261102T112024-0300.log | 0 | PASS
+copia snapshot | logs/snapshot_copy_20261102T112024-0300.txt | 0 | PASS
+reabrir y validar snapshot | logs/snapshot_validation_20261102T112024-0300.log | 0 | PASS
+editar revision B | logs/edit_B_20261102T112024-0300.log | 0 | PASS
+reabrir y validar B | logs/revision_B_validation_20261102T112024-0300.log | 0 | PASS
+generar control negativo correcto | logs/negative_X55_binarybase_generation_20261102T112024-0300.log | 0 | PASS candidato generado
+validar control negativo | logs/negative_binarybase_validation_20261102T112024-0300.log | 1 | FAIL esperado; se rechazo X=55 mm
+copiar restauracion desde B | copia de archivo; hashes en MANIFIESTO_ARTEFACTOS.json | 0 | PASS
+reabrir y validar restauracion | logs/restored_validation_20261102T112024-0300.log | 0 | PASS
+generar candidato concurrente | logs/concurrent_Z72_binarybase_generation_20261102T112024-0300.log | 0 | PASS candidato aislado
+control guard base intacta | logs/revision_guard_no_conflict_20261102T112024-0300.log | 0 | PASS elegible
+control guard base divergente | logs/revision_guard_conflict_20261102T112024-0300.log | 2 | PASS conflicto bloqueado
+verificacion hash maestro final | MANIFIESTO_ARTEFACTOS.json y registro final | 0 | PASS
+
+Duraciones: los stdout de Blender conservan tiempos de operación internos (por ejemplo, lectura de snapshot/revisión); el tiempo de pared de cada invocación no fue persistido individualmente durante la ejecución interactiva. No se inventan duraciones. La limitación se registra para mejorar el wrapper de futuras ejecuciones.
+Advertencias: Blender imprimió ARCH_WARN de USD; se conserva en logs. Se generaron miniaturas dentro de perfiles temporales bajo logs/, sin escrituras observadas fuera del directorio experimental.

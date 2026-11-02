@@ -1,0 +1,11 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Info: Saved as "EXP-BPY-006-20261102T175526Z_B_geometry_nodes.blend"
+BUILD_B {"group": "EXP-BPY-006_B_ParametricRelief", "interfaces": [{"direction": "OUTPUT", "identifier": "Socket_9", "name": "Geometry"}, {"direction": "INPUT", "identifier": "Socket_0", "name": "Geometry"}, {"direction": "INPUT", "identifier": "Socket_1", "name": "Ancho placa (m)"}, {"direction": "INPUT", "identifier": "Socket_2", "name": "Alto placa (m)"}, {"direction": "INPUT", "identifier": "Socket_3", "name": "Base (m)"}, {"direction": "INPUT", "identifier": "Socket_4", "name": "Relieve (m)"}, {"direction": "INPUT", "identifier": "Socket_5", "name": "Ladrillo X (m)"}, {"direction": "INPUT", "identifier": "Socket_6", "name": "Ladrillo Y (m)"}, {"direction": "INPUT", "identifier": "Socket_7", "name": "Paso X (m)"}, {"direction": "INPUT", "identifier": "Socket_8", "name": "Paso Y (m)"}], "path": "experimentos/EXP-BPY-006/artifacts/EXP-BPY-006-20261102T175526Z_B_geometry_nodes.blend", "strategy": "Geometry Nodes persistent interface"}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/EXP-BPY-006/scripts/build_candidates.py", "--", "B", "experimentos/EXP-BPY-006/artifacts/EXP-BPY-006-20261102T175526Z_B_geometry_nodes.blend"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 587.746, "end_utc": "2026-11-02T18:00:18.309+00:00", "exit_code": 0, "label": "build_B_retry4", "log": "experimentos/EXP-BPY-006/logs/build_B_retry4.log", "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006/profiles/build_B_retry4", "run_id": "EXP-BPY-006-20261102T175526Z", "start_utc": "2026-11-02T18:00:17.721+00:00"}

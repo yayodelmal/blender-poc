@@ -1,0 +1,12 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+00:00.293  blend            | Read blend: "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend"
+Info: Saved as "EXP-BPY-003-20261102T144300Z_relief_plate_open_ready.blend"
+EXP_BPY_003_OPEN_READY {"layout_view_distance_blender_units": 0.2, "object": "EXP-BPY-003_ReliefPlate", "object_selected": true, "saved_copy": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_open_ready.blend", "source_path": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend", "source_sha256_before": "09f7ee7c1ac207df00b1e8494e41b39a0c1eec4e048edbfcac61b71fd998495b", "status": "PASS", "view_location_m": [0.0, 0.0, 0.0025]}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META start_utc=2026-11-02T15:12:06.022+00:00 end_utc=2026-11-02T15:12:06.813+00:00 duration_ms=790.693 exit_code=0

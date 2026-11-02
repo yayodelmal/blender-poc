@@ -1,0 +1,24 @@
+{
+  "label": "validate_master_v2",
+  "run_id": "EXP-BPY-003-20261102T144300Z",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_A_v2.blend",
+    "--python",
+    "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/scripts/validate_relief_blend.py",
+    "--",
+    "{\"expected_dimensions_mm\":{\"x\":80,\"y\":60,\"z\":5},\"expected_parameters_mm\":{\"plate_width\":80.0,\"plate_height\":60.0,\"base_thickness\":4.0,\"relief_height\":1.0,\"brick_length\":18.0,\"brick_height\":8.4,\"joint\":1.2,\"rows\":6,\"row_pitch\":9.6,\"brick_pitch_x\":19.2,\"overlap_into_base\":0.5,\"edge_margin\":0.6},\"expected_brick_count\":27,\"expected_brick_top_area_mm2\":3679.2}"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003",
+  "profile": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-003/logs/profile_validate_master_v2",
+  "start_utc": "2026-11-02T14:46:38.758+00:00",
+  "end_utc": "2026-11-02T14:46:39.330+00:00",
+  "duration_ms": 571.769,
+  "exit_code": 1,
+  "log": "logs/validate_master_v2.log"
+}
