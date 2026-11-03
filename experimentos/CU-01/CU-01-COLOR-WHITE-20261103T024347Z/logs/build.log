@@ -1,0 +1,10 @@
+00:00.291  blend            | Read blend: "/Users/yayo/Projects/blender-poc/experimentos/CU-01/REV-002-20261103T023400Z/artifacts/CU01_REV002_planter_20261103T023400Z.blend"
+/Users/yayo/Projects/blender-poc/experimentos/CU-01/CU-01-COLOR-WHITE-20261103T024347Z/scripts/apply_white.py:10: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.diffuse_color=(1.0,1.0,1.0,1.0); mat.use_nodes=True
+Info: Saved as "CU01_REV002_white_matte.blend"
+WHITE_VARIANT {"source": "/Users/yayo/Projects/blender-poc/experimentos/CU-01/REV-002-20261103T023400Z/artifacts/CU01_REV002_planter_20261103T023400Z.blend", "output": "/Users/yayo/Projects/blender-poc/experimentos/CU-01/CU-01-COLOR-WHITE-20261103T024347Z/artifacts/CU01_REV002_white_matte.blend", "object": "CU01_Planter_REV002", "material": "CU01_White_Matte", "base_color": [1, 1, 1, 1], "roughness": 0.8}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"blender_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80", "blender_version": "Blender 5.4.0 Alpha (build 745ab9a3e3c5)", "command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/CU-01/CU-01-COLOR-WHITE-20261103T024347Z/scripts/apply_white.py", "--", "experimentos/CU-01/REV-002-20261103T023400Z/artifacts/CU01_REV002_planter_20261103T023400Z.blend", "experimentos/CU-01/CU-01-COLOR-WHITE-20261103T024347Z/artifacts/CU01_REV002_white_matte.blend"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 705.578, "end_utc": "2026-11-03T02:44:16.578+00:00", "exit_code": 0, "label": "build", "log": "experimentos/CU-01/CU-01-COLOR-WHITE-20261103T024347Z/logs/build.log", "profile": "/Users/yayo/Projects/blender-poc/experimentos/CU-01/CU-01-COLOR-WHITE-20261103T024347Z/profiles/build", "run_id": "CU-01-COLOR-WHITE-20261103T024347Z", "start_utc": "2026-11-03T02:44:15.872+00:00"}
