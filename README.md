@@ -1,6 +1,6 @@
 # Laboratorio de Modelado 3D Agéntico
 
-**Estado (2026-11-02):** Fase 1 **cerrada por decisión del responsable, con excepción dimensional documentada** (ADR-0003; no se midió la pieza física, y eso no equivale a cumplir el criterio). Flujo digital demostrado en un proxy (80×60×5 mm) con Blender 5.4.0 Alpha: crear, editar, validar, snapshot, STL y laminado en Creality Print. Impresión física del proxy hecha, con inspección visual favorable y sin medición dimensional. CU-01 (macetero) sin iniciar.
+**Estado (2026-11-03):** Fase 1 **cerrada por decisión del responsable, con excepción dimensional documentada** (ADR-0003; no se midió la pieza física, y eso no equivale a cumplir el criterio). Flujo digital demostrado en un proxy (80×60×5 mm) con Blender 5.4.0 Alpha: crear, editar, validar, snapshot, STL y laminado en Creality Print. Impresión física del proxy hecha, con inspección visual favorable y sin medición dimensional. CU-01 (macetero 150 × 150 × 60 mm): hay tres revisiones digitales con PASS (paredes de 20, 10 y 5 mm), un soporte para sensor SHT31 y dos variantes de color; ninguna se ha exportado a STL ni impreso (ver [`docs/06_estado/ESTADO_FASES.md`](docs/06_estado/ESTADO_FASES.md)).
 
 **Entorno:** MacBook Apple Silicon, Codex, Blender (ejecución directa con `bpy`), Creality Print, Creality K1C, PLA, boquilla 0,4 mm.
 
@@ -26,4 +26,8 @@
 
 ## Próximo paso
 
-EXP-BPY-006: modificación paramétrica del patrón de ladrillos conservando dimensiones e invariantes (R06). CU-01 solo después, y necesita decisiones de pared, base y drenaje; allí la medición física vuelve a ser exigible.
+EXP-BPY-006 quedó INCONCLUSIVE: `bpy` regenerando la geometría pasó, Geometry Nodes falló en la única variante medida y la edición in-place no se ejecutó (ver `experimentos/EXP-BPY-006/reports/CIERRE_ADITIVO_20261102.md`). Para CU-01 falta elegir la revisión y el drenaje, exportar a STL, imprimir y medir la pieza; la medición física es exigible.
+
+## Material predeterminado para modelos nuevos
+
+Los modelos de producto nuevos usan `herramientas/hyper_pla_marmol.py` por defecto, salvo indicación distinta del responsable. Desde un generador `bpy`, importa `aplicar_material_por_defecto(obj)` y llámalo después de crear la malla. El material procedural replica el acabado blanco con motas negras y grises de la variante PLA marmoleada; solo modifica apariencia. Los experimentos y revisiones históricas permanecen intactos.

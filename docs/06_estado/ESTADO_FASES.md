@@ -38,6 +38,19 @@ Entorno de todos los PASS: Blender 5.4.0 Alpha (ver ADR-0002), Creality Print 7.
 2. Para CU-01: espesor de pared (2 o 20 mm), base, drenaje, si los 150 mm incluyen el relieve.
 3. Motivo documentado del pivote a bpy y aceptación del riesgo de MCP (ADR-0001).
 
+## CU-01 — revisiones digitales (macetero 150 × 150 × 60 mm)
+
+Solo modelo digital en Blender 5.4.0 Alpha. **Ninguna revisión se ha exportado a STL ni impreso**; la medición física sigue siendo exigible.
+
+| Revisión | Cambio | Resultado | Carpeta |
+|---|---|---|---|
+| REV-001 | Pared 20 mm, base 4 mm, sin drenaje (3 intentos; los 2 primeros fallaron) | PASS digital | `experimentos/CU-01/REV-001-20261102T220906Z` |
+| REV-002 | Pared 10 mm | PASS digital | `experimentos/CU-01/REV-002-20261103T023400Z` |
+| REV-003 (pared 5 mm) | Pared 5 mm; acabado Hyper PLA Marmol por defecto | PASS digital; cavidad 138 × 138 × 56 mm medida en un run complementario | `experimentos/CU-01/REV-003-20261103T033342Z` y `…/REV-003-CAVIDAD-20261103T033612Z` |
+| REV-003-SHT31 | Copia de REV-002 (pared 10 mm) con soporte removible para placa SHT31, como objeto aparte (trabajo de otro agente) | PASS digital según su informe; sus 16 artefactos sellados verifican OK. Sin STL ni impresión | `experimentos/CU-01/REV-003-SHT31-20261103T032047Z` |
+
+Variantes visuales de REV-002 (no cambian la geometría): blanco mate y PLA marmoleado, en `experimentos/CU-01/CU-01-COLOR-*`. Pendiente del responsable: elegir la revisión, drenaje y la medición física.
+
 ## Fase 2 y siguientes
 
 No cerrada. CON-001 y VAL-001 son borradores sin aprobar. No se ha iniciado CU-01. **La excepción dimensional no se hereda a CU-01**: allí V10 (medición física) vuelve a ser exigible.
