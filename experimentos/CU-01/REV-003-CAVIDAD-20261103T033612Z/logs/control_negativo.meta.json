@@ -1,0 +1,29 @@
+{
+  "blender_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/Users/yayo/Projects/blender-poc/herramientas/validar_malla.py",
+    "--",
+    "experimentos/CU-01/REV-003-20261103T033342Z/artifacts/CU01_REV003_planter_20261103T033342Z.blend",
+    "experimentos/CU-01/REV-003-CAVIDAD-20261103T033612Z/evidencias/control_negativo.json",
+    "--dims",
+    "150,150,60",
+    "--cavidad",
+    "128,128,56"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "duration_ms": 616.347,
+  "end_utc": "2026-11-03T03:36:14.056+00:00",
+  "exit_code": 2,
+  "label": "control_negativo",
+  "log": "experimentos/CU-01/REV-003-CAVIDAD-20261103T033612Z/logs/control_negativo.log",
+  "profile": "experimentos/CU-01/REV-003-CAVIDAD-20261103T033612Z/profiles/control_negativo",
+  "run_id": "REV-003-CAVIDAD-20261103T033612Z",
+  "start_utc": "2026-11-03T03:36:13.439+00:00"
+}

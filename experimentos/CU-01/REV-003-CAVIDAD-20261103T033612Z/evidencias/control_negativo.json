@@ -1,0 +1,119 @@
+{
+  "archivo": "/Users/yayo/Projects/blender-poc/experimentos/CU-01/REV-003-20261103T033342Z/artifacts/CU01_REV003_planter_20261103T033342Z.blend",
+  "blender": "5.4.0 Alpha",
+  "checks": [
+    {
+      "check": "un_solo_mesh",
+      "observado": [
+        "CU01_Planter_REV003"
+      ],
+      "pass": true
+    },
+    {
+      "check": "envolvente_mm",
+      "esperado": [
+        150.0,
+        150.0,
+        60.0
+      ],
+      "observado": [
+        150.00002086162567,
+        150.00002086162567,
+        60.00000238418579
+      ],
+      "pass": true,
+      "tolerancia_mm": 0.01
+    },
+    {
+      "check": "componentes",
+      "esperado": 1,
+      "observado": 1,
+      "pass": true
+    },
+    {
+      "check": "manifold",
+      "observado": true,
+      "pass": true
+    },
+    {
+      "check": "orientacion_coherente",
+      "observado": true,
+      "pass": true
+    },
+    {
+      "check": "volumen_positivo",
+      "observado_mm3": 274801.765275496,
+      "pass": true
+    },
+    {
+      "check": "sin_degenerados",
+      "observado": 0,
+      "pass": true
+    },
+    {
+      "check": "cavidad_x_mm",
+      "esperado": 128.0,
+      "observado": 138.00001641114554,
+      "pass": false,
+      "tolerancia_mm": 0.01
+    },
+    {
+      "check": "plano_interior_plano_x",
+      "dispersion_mm": 7.450580596923828e-06,
+      "pass": true,
+      "tolerancia_mm": 0.01
+    },
+    {
+      "check": "cavidad_y_mm",
+      "esperado": 128.0,
+      "observado": 138.00001641114554,
+      "pass": false,
+      "tolerancia_mm": 0.01
+    },
+    {
+      "check": "plano_interior_plano_y",
+      "dispersion_mm": 7.450580596923828e-06,
+      "pass": true,
+      "tolerancia_mm": 0.01
+    },
+    {
+      "check": "piso_cerrado",
+      "observado": true,
+      "pass": true,
+      "rayos": 9
+    },
+    {
+      "check": "cavidad_z_mm",
+      "esperado": 56.0,
+      "observado": 55.99999841716555,
+      "pass": true,
+      "tolerancia_mm": 0.01
+    },
+    {
+      "check": "piso_plano",
+      "dispersion_mm": 3.725290298461914e-06,
+      "pass": true,
+      "tolerancia_mm": 0.01
+    },
+    {
+      "check": "tapa_abierta",
+      "observado": true,
+      "pass": true
+    }
+  ],
+  "medidas": {
+    "cavidad_x_mm": 138.00001641114554,
+    "cavidad_y_mm": 138.00001641114554,
+    "cavidad_z_mm": 55.99999841716555,
+    "componentes": 1,
+    "dimensiones_mm": [
+      150.00002086162567,
+      150.00002086162567,
+      60.00000238418579
+    ],
+    "objeto": "CU01_Planter_REV003",
+    "piso_z_mm": 4.000003967020247,
+    "volumen_mm3": 274801.765275496
+  },
+  "status": "FAIL"
+}

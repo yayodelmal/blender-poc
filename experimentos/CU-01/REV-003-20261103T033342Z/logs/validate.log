@@ -1,0 +1,7 @@
+00:00.238  blend            | Read blend: "/Users/yayo/Projects/blender-poc/experimentos/CU-01/REV-003-20261103T033342Z/artifacts/CU01_REV003_planter_20261103T033342Z.blend"
+VALIDACION {"status": "PASS", "fallos": []}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"blender_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80", "command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "/Users/yayo/Projects/blender-poc/herramientas/validar_malla.py", "--", "experimentos/CU-01/REV-003-20261103T033342Z/artifacts/CU01_REV003_planter_20261103T033342Z.blend", "experimentos/CU-01/REV-003-20261103T033342Z/evidencias/validation.json", "--dims", "150,150,60", "--volumen", "274801.6"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 623.365, "end_utc": "2026-11-03T03:33:50.403+00:00", "exit_code": 0, "label": "validate", "log": "experimentos/CU-01/REV-003-20261103T033342Z/logs/validate.log", "profile": "experimentos/CU-01/REV-003-20261103T033342Z/profiles/validate", "run_id": "REV-003-20261103T033342Z", "start_utc": "2026-11-03T03:33:49.779+00:00"}

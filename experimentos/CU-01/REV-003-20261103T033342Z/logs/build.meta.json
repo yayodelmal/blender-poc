@@ -1,0 +1,24 @@
+{
+  "blender_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/Users/yayo/Projects/blender-poc/experimentos/CU-01/REV-003-20261103T033342Z/scripts/build_model.py",
+    "--",
+    "experimentos/CU-01/REV-003-20261103T033342Z/artifacts/CU01_REV003_planter_20261103T033342Z.blend"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "duration_ms": 1210.853,
+  "end_utc": "2026-11-03T03:33:43.533+00:00",
+  "exit_code": 0,
+  "label": "build",
+  "log": "experimentos/CU-01/REV-003-20261103T033342Z/logs/build.log",
+  "profile": "experimentos/CU-01/REV-003-20261103T033342Z/profiles/build",
+  "run_id": "REV-003-20261103T033342Z",
+  "start_utc": "2026-11-03T03:33:42.322+00:00"
+}

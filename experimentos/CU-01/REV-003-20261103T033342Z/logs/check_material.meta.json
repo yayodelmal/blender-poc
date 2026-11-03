@@ -1,0 +1,24 @@
+{
+  "blender_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/private/tmp/claude-501/-Users-yayo-Projects-blender-poc/9d7860bb-d592-4cc4-9bbd-8f54da70d290/scratchpad/check_material.py",
+    "--",
+    "experimentos/CU-01/REV-003-20261103T033342Z/artifacts/CU01_REV003_planter_20261103T033342Z.blend"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "duration_ms": 615.494,
+  "end_utc": "2026-11-03T03:34:05.087+00:00",
+  "exit_code": 0,
+  "label": "check_material",
+  "log": "experimentos/CU-01/REV-003-20261103T033342Z/logs/check_material.log",
+  "profile": "experimentos/CU-01/REV-003-20261103T033342Z/profiles/check_material",
+  "run_id": "REV-003-20261103T033342Z",
+  "start_utc": "2026-11-03T03:34:04.471+00:00"
+}
