@@ -29,3 +29,11 @@ Los informes históricos **no se editan**. Cada entrada conserva la afirmación 
 ## E-005 — Estado de EXP-BPY-004 en CIERRE_FASE_1, README de 004 y matriz de EXP-BPY-005
 
 Ver [RECONCILIACION_EXP-BPY-004](RECONCILIACION_EXP-BPY-004.md).
+
+## E-006 — Variante marmoleada de CU-01 modificada después de sellarse
+
+- **Afirmación original** (`experimentos/CU-01/CU-01-COLOR-PLA-MARBLE-20261103T024738Z/registro_artefactos.jsonl`, `marbled_variant`): `artifacts/CU01_REV002_pla_marble.blend` mide 104.100 B y tiene SHA-256 `d13a02f0bae9…`, sellado a las 2026-11-03T02:48:10Z.
+- **Mejor respaldo**: el archivo actual mide 120.245 B y da `0f43365c5017…`, así que `sellar_artefacto.py verify` lo marca `CAMBIADO`. Blender guardó encima del sellado y dejó `artifacts/CU01_REV002_pla_marble.blend1`, cuyo hash y tamaño coinciden con lo sellado: es la versión original. No se sabe quién guardó ni qué se cambió. Hipótesis sin confirmar: se guardó desde Blender con interfaz al ajustar el material que `herramientas/hyper_pla_marmol.py` declara replicar.
+- **Acción**: la versión original se conserva sin cambios como `artifacts/CU01_REV002_pla_marble_sellado_original.blend` (copia byte a byte del `.blend1`; hash y tamaño idénticos a lo sellado, comprobados con la herramienta). El archivo modificado y el registro original no se tocan; el informe del run sigue describiendo la versión sellada.
+- **Fuentes**: el registro del run y `herramientas/sellar_artefacto.py verify --registro experimentos/CU-01/CU-01-COLOR-PLA-MARBLE-20261103T024738Z/registro_artefactos.jsonl`.
+- **Límite**: la copia original no está en el registro sellado (no se reescriben registros). Su identidad con lo sellado se apoya en esta entrada y en el recálculo. El `.blend1` sigue en disco pero está ignorado por git.
