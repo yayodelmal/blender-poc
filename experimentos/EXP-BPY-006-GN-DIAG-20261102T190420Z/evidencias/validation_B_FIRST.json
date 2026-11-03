@@ -1,0 +1,223 @@
+{
+  "blender_version": "5.4.0 Alpha",
+  "checks": [
+    {
+      "api_inventory": {
+        "identifier": "Mesh",
+        "name": "Mesh",
+        "type": "GEOMETRY"
+      },
+      "check": "geometry_output_resolved_before_evaluation",
+      "observed": {
+        "identifier": "Mesh",
+        "name": "Mesh",
+        "type": "GEOMETRY"
+      },
+      "pass": true
+    },
+    {
+      "check": "saved_input_order",
+      "expected": [
+        "Position B offset 9.8mm",
+        "Position A"
+      ],
+      "observed": [
+        "Position B offset 9.8mm",
+        "Position A"
+      ],
+      "pass": true
+    },
+    {
+      "check": "input_A_individual",
+      "expected": {
+        "center_mm": [
+          5,
+          5,
+          5
+        ],
+        "components": 1,
+        "dimensions_mm": [
+          10,
+          10,
+          10
+        ],
+        "manifold": true,
+        "volume_mm3": 1000
+      },
+      "observed": {
+        "all_edges_manifold": true,
+        "all_manifold_edges_contiguous": true,
+        "center_mm": [
+          4.999999888241291,
+          4.999999888241291,
+          4.999999888241291
+        ],
+        "components": 1,
+        "degenerate_edges": 0,
+        "degenerate_faces": 0,
+        "dimensions_mm": [
+          9.999999776482582,
+          9.999999776482582,
+          9.999999776482582
+        ],
+        "edges": 12,
+        "faces": 6,
+        "label": "input_A",
+        "signed_volume_mm3": 999.999932944776,
+        "vertices": 8
+      },
+      "pass": true
+    },
+    {
+      "check": "input_B_individual",
+      "expected": {
+        "center_mm": [
+          14.8,
+          5,
+          5
+        ],
+        "components": 1,
+        "dimensions_mm": [
+          10,
+          10,
+          10
+        ],
+        "manifold": true,
+        "volume_mm3": 1000
+      },
+      "observed": {
+        "all_edges_manifold": true,
+        "all_manifold_edges_contiguous": true,
+        "center_mm": [
+          14.800000004470348,
+          4.999999888241291,
+          4.999999888241291
+        ],
+        "components": 1,
+        "degenerate_edges": 0,
+        "degenerate_faces": 0,
+        "dimensions_mm": [
+          9.999999776482582,
+          9.999999776482582,
+          9.999999776482582
+        ],
+        "edges": 12,
+        "faces": 6,
+        "label": "input_B",
+        "signed_volume_mm3": 999.999932944776,
+        "vertices": 8
+      },
+      "pass": true
+    },
+    {
+      "check": "union_contract",
+      "expected": {
+        "closed_manifold": true,
+        "components": 1,
+        "degenerates": 0,
+        "dimensions_mm": [
+          19.8,
+          10,
+          10
+        ],
+        "volume_mm3": 1980
+      },
+      "observed": {
+        "all_edges_manifold": true,
+        "all_manifold_edges_contiguous": true,
+        "center_mm": [
+          4.999999888241291,
+          4.999999888241291,
+          4.999999888241291
+        ],
+        "components": 1,
+        "degenerate_edges": 0,
+        "degenerate_faces": 0,
+        "dimensions_mm": [
+          9.999999776482582,
+          9.999999776482582,
+          9.999999776482582
+        ],
+        "edges": 12,
+        "faces": 6,
+        "label": "union",
+        "signed_volume_mm3": 999.999932944776,
+        "vertices": 8
+      },
+      "pass": false
+    }
+  ],
+  "input_A": {
+    "all_edges_manifold": true,
+    "all_manifold_edges_contiguous": true,
+    "center_mm": [
+      4.999999888241291,
+      4.999999888241291,
+      4.999999888241291
+    ],
+    "components": 1,
+    "degenerate_edges": 0,
+    "degenerate_faces": 0,
+    "dimensions_mm": [
+      9.999999776482582,
+      9.999999776482582,
+      9.999999776482582
+    ],
+    "edges": 12,
+    "faces": 6,
+    "label": "input_A",
+    "signed_volume_mm3": 999.999932944776,
+    "vertices": 8
+  },
+  "input_B": {
+    "all_edges_manifold": true,
+    "all_manifold_edges_contiguous": true,
+    "center_mm": [
+      14.800000004470348,
+      4.999999888241291,
+      4.999999888241291
+    ],
+    "components": 1,
+    "degenerate_edges": 0,
+    "degenerate_faces": 0,
+    "dimensions_mm": [
+      9.999999776482582,
+      9.999999776482582,
+      9.999999776482582
+    ],
+    "edges": 12,
+    "faces": 6,
+    "label": "input_B",
+    "signed_volume_mm3": 999.999932944776,
+    "vertices": 8
+  },
+  "no_save_called": true,
+  "opened_blend": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/artifacts/union_Bfirst.blend",
+  "python_version": "3.13.13",
+  "read_only_blend": true,
+  "run_id": "EXP-BPY-006-GN-DIAG-20261102T190420Z",
+  "status": "FAIL",
+  "union": {
+    "all_edges_manifold": true,
+    "all_manifold_edges_contiguous": true,
+    "center_mm": [
+      4.999999888241291,
+      4.999999888241291,
+      4.999999888241291
+    ],
+    "components": 1,
+    "degenerate_edges": 0,
+    "degenerate_faces": 0,
+    "dimensions_mm": [
+      9.999999776482582,
+      9.999999776482582,
+      9.999999776482582
+    ],
+    "edges": 12,
+    "faces": 6,
+    "label": "union",
+    "signed_volume_mm3": 999.999932944776,
+    "vertices": 8
+  },
+  "variant": "B_FIRST"
+}

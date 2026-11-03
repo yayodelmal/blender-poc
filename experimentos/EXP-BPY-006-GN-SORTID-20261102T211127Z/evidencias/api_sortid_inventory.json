@@ -1,0 +1,70 @@
+{
+  "run_id": "EXP-BPY-006-GN-SORTID-20261102T211127Z",
+  "blender_version": "5.4.0 Alpha",
+  "geometry_evaluated": false,
+  "operation": "UNION",
+  "inputs": [
+    {
+      "index": 0,
+      "name": "Mesh 1",
+      "identifier": "Mesh 1",
+      "type": "GEOMETRY",
+      "enabled": false,
+      "multi_input": false
+    },
+    {
+      "index": 1,
+      "name": "Mesh",
+      "identifier": "Mesh 2",
+      "type": "GEOMETRY",
+      "enabled": true,
+      "multi_input": true
+    },
+    {
+      "index": 2,
+      "name": "Self Intersection",
+      "identifier": "Self Intersection",
+      "type": "BOOLEAN",
+      "enabled": false,
+      "multi_input": false
+    },
+    {
+      "index": 3,
+      "name": "Hole Tolerant",
+      "identifier": "Hole Tolerant",
+      "type": "BOOLEAN",
+      "enabled": false,
+      "multi_input": false
+    }
+  ],
+  "outputs": [
+    {
+      "index": 0,
+      "name": "Mesh",
+      "identifier": "Mesh",
+      "type": "GEOMETRY",
+      "enabled": true
+    },
+    {
+      "index": 1,
+      "name": "Intersecting Edges",
+      "identifier": "Intersecting Edges",
+      "type": "BOOLEAN",
+      "enabled": false
+    }
+  ],
+  "active_geometry_multi_input_candidates": 1,
+  "geometry_output_candidates": 1,
+  "resolved_multi_input": {
+    "index": 1,
+    "name": "Mesh",
+    "identifier": "Mesh 2"
+  },
+  "resolved_geometry_output": {
+    "name": "Mesh",
+    "identifier": "Mesh"
+  },
+  "preflight_pass": false,
+  "error": "AttributeError('bpy_struct: attribute \"multi_input_sort_id\" from \"NodeLink\" is read-only')",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-SORTID-20261102T211127Z/scripts/inspect_multi_sort_api.py\", line 23, in main\n    link=link_a if label=='A' else link_b; link.multi_input_sort_id=sort_id\n                                           ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: bpy_struct: attribute \"multi_input_sort_id\" from \"NodeLink\" is read-only\n"
+}

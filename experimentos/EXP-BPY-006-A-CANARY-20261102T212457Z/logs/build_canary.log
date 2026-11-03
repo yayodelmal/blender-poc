@@ -1,0 +1,9 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Info: Saved as "EXP-BPY-006-A-CANARY-20261102T212457Z_A_canary.blend"
+BUILD_A {"brick_count": 27, "parameters": {"base_mm": 4.0, "brick_x_mm": 14.8, "brick_y_mm": 7.0, "columns_even": 5, "columns_odd": 4, "height_mm": 60.0, "joint_mm": 1.2, "pitch_x_mm": 16.0, "pitch_y_mm": 8.2, "relief_mm": 1.0, "rows": 6, "width_mm": 80.0}, "path": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-A-CANARY-20261102T212457Z/artifacts/EXP-BPY-006-A-CANARY-20261102T212457Z_A_canary.blend", "strategy": "full_rebuild"}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit

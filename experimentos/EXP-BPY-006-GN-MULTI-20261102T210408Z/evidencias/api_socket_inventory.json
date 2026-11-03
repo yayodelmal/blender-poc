@@ -1,0 +1,91 @@
+{
+  "run_id": "EXP-BPY-006-GN-MULTI-20261102T210408Z",
+  "blender_version": "5.4.0 Alpha",
+  "operation": "UNION",
+  "inputs": [
+    {
+      "index": 0,
+      "name": "Mesh 1",
+      "identifier": "Mesh 1",
+      "type": "GEOMETRY",
+      "enabled": false,
+      "multi_input": false
+    },
+    {
+      "index": 1,
+      "name": "Mesh",
+      "identifier": "Mesh 2",
+      "type": "GEOMETRY",
+      "enabled": true,
+      "multi_input": true
+    },
+    {
+      "index": 2,
+      "name": "Self Intersection",
+      "identifier": "Self Intersection",
+      "type": "BOOLEAN",
+      "enabled": false,
+      "multi_input": false
+    },
+    {
+      "index": 3,
+      "name": "Hole Tolerant",
+      "identifier": "Hole Tolerant",
+      "type": "BOOLEAN",
+      "enabled": false,
+      "multi_input": false
+    }
+  ],
+  "outputs": [
+    {
+      "index": 0,
+      "name": "Mesh",
+      "identifier": "Mesh",
+      "type": "GEOMETRY",
+      "enabled": true
+    },
+    {
+      "index": 1,
+      "name": "Intersecting Edges",
+      "identifier": "Intersecting Edges",
+      "type": "BOOLEAN",
+      "enabled": false
+    }
+  ],
+  "active_geometry_multi_input_candidates": 1,
+  "multi_input_index": 1,
+  "multi_input_name": "Mesh",
+  "geometry_output_candidates": 1,
+  "resolved_geometry_output": {
+    "name": "Mesh",
+    "identifier": "Mesh",
+    "type": "GEOMETRY"
+  },
+  "test_link_order_A_then_B": [
+    {
+      "from_node": "TEST_B",
+      "from_socket": "Mesh",
+      "sort_id": 1
+    },
+    {
+      "from_node": "TEST_A",
+      "from_socket": "Mesh",
+      "sort_id": 0
+    }
+  ],
+  "test_link_order_B_then_A": [
+    {
+      "from_node": "TEST_A",
+      "from_socket": "Mesh",
+      "sort_id": 1
+    },
+    {
+      "from_node": "TEST_B",
+      "from_socket": "Mesh",
+      "sort_id": 0
+    }
+  ],
+  "order_inversion_observed": false,
+  "api_unambiguous": false,
+  "geometry_evaluated": false
+}

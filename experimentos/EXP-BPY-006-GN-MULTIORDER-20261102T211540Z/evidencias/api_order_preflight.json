@@ -1,0 +1,105 @@
+{
+  "run_id": "EXP-BPY-006-GN-MULTIORDER-20261102T211540Z",
+  "blender_version": "5.4.0 Alpha",
+  "geometry_evaluated": false,
+  "multi_input_sort_id_assigned": false,
+  "operation": "UNION",
+  "inputs": [
+    {
+      "index": 0,
+      "name": "Mesh 1",
+      "identifier": "Mesh 1",
+      "type": "GEOMETRY",
+      "enabled": false,
+      "multi_input": false
+    },
+    {
+      "index": 1,
+      "name": "Mesh",
+      "identifier": "Mesh 2",
+      "type": "GEOMETRY",
+      "enabled": true,
+      "multi_input": true
+    },
+    {
+      "index": 2,
+      "name": "Self Intersection",
+      "identifier": "Self Intersection",
+      "type": "BOOLEAN",
+      "enabled": false,
+      "multi_input": false
+    },
+    {
+      "index": 3,
+      "name": "Hole Tolerant",
+      "identifier": "Hole Tolerant",
+      "type": "BOOLEAN",
+      "enabled": false,
+      "multi_input": false
+    }
+  ],
+  "outputs": [
+    {
+      "index": 0,
+      "name": "Mesh",
+      "identifier": "Mesh",
+      "type": "GEOMETRY",
+      "enabled": true
+    },
+    {
+      "index": 1,
+      "name": "Intersecting Edges",
+      "identifier": "Intersecting Edges",
+      "type": "BOOLEAN",
+      "enabled": false
+    }
+  ],
+  "active_geometry_multi_input_count": 1,
+  "resolved_multi_input": {
+    "index": 1,
+    "name": "Mesh",
+    "identifier": "Mesh 2"
+  },
+  "disabled_mesh1_count": 1,
+  "enabled_geometry_output_count": 1,
+  "resolved_geometry_output": {
+    "name": "Mesh",
+    "identifier": "Mesh"
+  },
+  "link_order_tests": {
+    "create_A_then_B": {
+      "creation_sequence": [
+        "A",
+        "B"
+      ],
+      "effective_order": [
+        {
+          "node": "B",
+          "sort_id": 1
+        },
+        {
+          "node": "A",
+          "sort_id": 0
+        }
+      ]
+    },
+    "create_B_then_A": {
+      "creation_sequence": [
+        "B",
+        "A"
+      ],
+      "effective_order": [
+        {
+          "node": "A",
+          "sort_id": 1
+        },
+        {
+          "node": "B",
+          "sort_id": 0
+        }
+      ]
+    }
+  },
+  "both_effective_orders_observed": true,
+  "preflight_pass": true
+}

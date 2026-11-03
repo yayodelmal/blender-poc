@@ -1,0 +1,28 @@
+{
+  "run_id": "EXP-BPY-006-GN-DIAG-20261102T190420Z",
+  "label": "validate_A_FIRST",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/scripts/validate_union_variant.py",
+    "--",
+    "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/artifacts/union_Afirst.blend",
+    "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/evidencias/validation_A_FIRST.json"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "profile_isolated": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/profiles/validate_A_FIRST",
+  "blender_version": "Blender 5.4.0 Alpha",
+  "version_command_exit_code": 0,
+  "blender_executable": "/Applications/Blender.app/Contents/MacOS/Blender",
+  "blender_executable_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80",
+  "start_utc": "2026-11-02T19:06:03.117+00:00",
+  "end_utc": "2026-11-02T19:06:03.707+00:00",
+  "duration_ms": 589.808,
+  "exit_code": 2,
+  "log": "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/logs/validate_A_FIRST.log"
+}

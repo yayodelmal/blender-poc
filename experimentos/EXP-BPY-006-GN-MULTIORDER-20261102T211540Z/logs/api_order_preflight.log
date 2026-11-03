@@ -1,0 +1,30 @@
+VERSION_OUTPUT
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Blender 5.4.0 Alpha
+	build date: 2026-10-30
+	build time: 01:37:17
+	build commit date: 2026-10-29
+	build commit time: 22:52
+	build hash: 745ab9a3e3c5
+	build branch: main
+	build platform: Darwin
+	build type: Release
+	build c flags:  -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter -Wundef -Wundef-prefix -Werror=unguarded-availability-new  -mmacosx-version-min=13.0  -std=gnu11  -pipe -funsigned-char -fno-strict-aliasing -ffp-contract=off  
+	build c++ flags:  -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof -Wno-suggest-override -Wundef -Wundef-prefix -Wunused-parameter -Wmismatched-tags -Werror=unguarded-availability-new  -mmacosx-version-min=13.0 -ftemplate-depth=1024   -pipe -funsigned-char -fno-strict-aliasing -ffp-contract=off  
+	build link flags: -fexceptions -framework CoreServices -framework Foundation -framework IOKit -framework AppKit -framework Cocoa -framework Carbon -framework AudioUnit -framework AudioToolbox -framework CoreAudio -framework Metal -framework QuartzCore -framework CoreImage -framework OpenGL -framework VideoToolbox -framework CoreMedia -framework CoreVideo -framework Accelerate -liconv -Xlinker -no_warn_duplicate_libraries
+	build system: CMake
+
+PROCESS_OUTPUT
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+GN_MULTIORDER_PREFLIGHT {"active_geometry_multi_input_count": 1, "blender_version": "5.4.0 Alpha", "both_effective_orders_observed": true, "disabled_mesh1_count": 1, "enabled_geometry_output_count": 1, "geometry_evaluated": false, "inputs": [{"enabled": false, "identifier": "Mesh 1", "index": 0, "multi_input": false, "name": "Mesh 1", "type": "GEOMETRY"}, {"enabled": true, "identifier": "Mesh 2", "index": 1, "multi_input": true, "name": "Mesh", "type": "GEOMETRY"}, {"enabled": false, "identifier": "Self Intersection", "index": 2, "multi_input": false, "name": "Self Intersection", "type": "BOOLEAN"}, {"enabled": false, "identifier": "Hole Tolerant", "index": 3, "multi_input": false, "name": "Hole Tolerant", "type": "BOOLEAN"}], "link_order_tests": {"create_A_then_B": {"creation_sequence": ["A", "B"], "effective_order": [{"node": "B", "sort_id": 1}, {"node": "A", "sort_id": 0}]}, "create_B_then_A": {"creation_sequence": ["B", "A"], "effective_order": [{"node": "A", "sort_id": 1}, {"node": "B", "sort_id": 0}]}}, "multi_input_sort_id_assigned": false, "operation": "UNION", "outputs": [{"enabled": true, "identifier": "Mesh", "index": 0, "name": "Mesh", "type": "GEOMETRY"}, {"enabled": false, "identifier": "Intersecting Edges", "index": 1, "name": "Intersecting Edges", "type": "BOOLEAN"}], "preflight_pass": true, "resolved_geometry_output": {"identifier": "Mesh", "name": "Mesh"}, "resolved_multi_input": {"identifier": "Mesh 2", "index": 1, "name": "Mesh"}, "run_id": "EXP-BPY-006-GN-MULTIORDER-20261102T211540Z"}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"blender_executable": "/Applications/Blender.app/Contents/MacOS/Blender", "blender_executable_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80", "blender_version": "Blender 5.4.0 Alpha", "command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/scripts/preflight_multi_order.py", "--", "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/evidencias/api_order_preflight.json"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 619.253, "end_utc": "2026-11-02T21:16:17.929+00:00", "exit_code": 0, "label": "api_order_preflight", "log": "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/logs/api_order_preflight.log", "profile_isolated": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/profiles/api_order_preflight", "run_id": "EXP-BPY-006-GN-MULTIORDER-20261102T211540Z", "start_utc": "2026-11-02T21:16:17.310+00:00", "version_command_exit_code": 0}

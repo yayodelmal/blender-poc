@@ -1,0 +1,31 @@
+VERSION_COMMAND_OUTPUT
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Blender 5.4.0 Alpha
+	build date: 2026-10-30
+	build time: 01:37:17
+	build commit date: 2026-10-29
+	build commit time: 22:52
+	build hash: 745ab9a3e3c5
+	build branch: main
+	build platform: Darwin
+	build type: Release
+	build c flags:  -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter -Wundef -Wundef-prefix -Werror=unguarded-availability-new  -mmacosx-version-min=13.0  -std=gnu11  -pipe -funsigned-char -fno-strict-aliasing -ffp-contract=off  
+	build c++ flags:  -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof -Wno-suggest-override -Wundef -Wundef-prefix -Wunused-parameter -Wmismatched-tags -Werror=unguarded-availability-new  -mmacosx-version-min=13.0 -ftemplate-depth=1024   -pipe -funsigned-char -fno-strict-aliasing -ffp-contract=off  
+	build link flags: -fexceptions -framework CoreServices -framework Foundation -framework IOKit -framework AppKit -framework Cocoa -framework Carbon -framework AudioUnit -framework AudioToolbox -framework CoreAudio -framework Metal -framework QuartzCore -framework CoreImage -framework OpenGL -framework VideoToolbox -framework CoreMedia -framework CoreVideo -framework Accelerate -liconv -Xlinker -no_warn_duplicate_libraries
+	build system: CMake
+
+EXPERIMENT_PROCESS_OUTPUT
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Info: Saved as "union_Afirst.blend"
+GN_DIAG_BUILD {"artifact": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/artifacts/union_Afirst.blend", "blender_version": "5.4.0 Alpha", "expected_union": {"components": 1, "dimensions_mm": [19.8, 10, 10], "manifold": true, "volume_mm3": 1980}, "input_A": {"center_mm": [5, 5, 5], "dimensions_mm": [10, 10, 10], "volume_mm3": 1000}, "input_B": {"center_mm": [14.8, 5, 5], "dimensions_mm": [10, 10, 10], "volume_mm3": 1000}, "inputs": {"Mesh": "Position B offset 9.8mm", "Mesh 1": "Position A"}, "operation": "UNION", "overlap_x_mm": 0.2, "resolved_output": {"identifier": "Mesh", "name": "Mesh", "type": "GEOMETRY"}, "run_id": "EXP-BPY-006-GN-DIAG-20261102T190420Z", "variant": "A_FIRST"}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"blender_executable": "/Applications/Blender.app/Contents/MacOS/Blender", "blender_executable_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80", "blender_version": "Blender 5.4.0 Alpha", "command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/scripts/build_union_variant.py", "--", "A_FIRST", "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/artifacts/union_Afirst.blend"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 783.314, "end_utc": "2026-11-02T19:05:45.317+00:00", "exit_code": 0, "label": "build_A_FIRST", "log": "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/logs/build_A_FIRST.log", "profile_isolated": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/profiles/build_A_FIRST", "run_id": "EXP-BPY-006-GN-DIAG-20261102T190420Z", "start_utc": "2026-11-02T19:05:44.534+00:00", "version_command_exit_code": 0}

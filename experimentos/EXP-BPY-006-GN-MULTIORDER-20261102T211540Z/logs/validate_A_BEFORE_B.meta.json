@@ -1,0 +1,28 @@
+{
+  "run_id": "EXP-BPY-006-GN-MULTIORDER-20261102T211540Z",
+  "label": "validate_A_BEFORE_B",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/scripts/validate_multi_union.py",
+    "--",
+    "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/artifacts/union_A_before_B.blend",
+    "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/evidencias/validation_A_BEFORE_B.json"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "blender_version": "Blender 5.4.0 Alpha",
+  "blender_executable": "/Applications/Blender.app/Contents/MacOS/Blender",
+  "blender_executable_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80",
+  "profile_isolated": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/profiles/validate_A_BEFORE_B",
+  "version_command_exit_code": 0,
+  "start_utc": "2026-11-02T21:17:23.460+00:00",
+  "end_utc": "2026-11-02T21:17:24.074+00:00",
+  "duration_ms": 613.71,
+  "exit_code": 2,
+  "log": "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/logs/validate_A_BEFORE_B.log"
+}

@@ -1,0 +1,27 @@
+{
+  "run_id": "EXP-BPY-006-GN-MULTIORDER-20261102T211540Z",
+  "label": "api_order_preflight",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/scripts/preflight_multi_order.py",
+    "--",
+    "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/evidencias/api_order_preflight.json"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "blender_version": "Blender 5.4.0 Alpha",
+  "blender_executable": "/Applications/Blender.app/Contents/MacOS/Blender",
+  "blender_executable_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80",
+  "profile_isolated": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/profiles/api_order_preflight",
+  "version_command_exit_code": 0,
+  "start_utc": "2026-11-02T21:16:17.310+00:00",
+  "end_utc": "2026-11-02T21:16:17.929+00:00",
+  "duration_ms": 619.253,
+  "exit_code": 0,
+  "log": "experimentos/EXP-BPY-006-GN-MULTIORDER-20261102T211540Z/logs/api_order_preflight.log"
+}

@@ -1,0 +1,30 @@
+VERSION_COMMAND_OUTPUT
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+Blender 5.4.0 Alpha
+	build date: 2026-10-30
+	build time: 01:37:17
+	build commit date: 2026-10-29
+	build commit time: 22:52
+	build hash: 745ab9a3e3c5
+	build branch: main
+	build platform: Darwin
+	build type: Release
+	build c flags:  -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter -Wundef -Wundef-prefix -Werror=unguarded-availability-new  -mmacosx-version-min=13.0  -std=gnu11  -pipe -funsigned-char -fno-strict-aliasing -ffp-contract=off  
+	build c++ flags:  -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof -Wno-suggest-override -Wundef -Wundef-prefix -Wunused-parameter -Wmismatched-tags -Werror=unguarded-availability-new  -mmacosx-version-min=13.0 -ftemplate-depth=1024   -pipe -funsigned-char -fno-strict-aliasing -ffp-contract=off  
+	build link flags: -fexceptions -framework CoreServices -framework Foundation -framework IOKit -framework AppKit -framework Cocoa -framework Carbon -framework AudioUnit -framework AudioToolbox -framework CoreAudio -framework Metal -framework QuartzCore -framework CoreImage -framework OpenGL -framework VideoToolbox -framework CoreMedia -framework CoreVideo -framework Accelerate -liconv -Xlinker -no_warn_duplicate_libraries
+	build system: CMake
+
+EXPERIMENT_PROCESS_OUTPUT
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/jonas/blender-dev-deps/build_darwin/deps_arm64/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 140
+GN_BOOLEAN_API {"blender_version": "5.4.0 Alpha", "geometry_output_candidates": [{"identifier": "Mesh", "name": "Mesh", "type": "GEOMETRY"}], "inputs": [{"enabled": false, "identifier": "Mesh 1", "index": 0, "multi_input": false, "name": "Mesh 1", "type": "GEOMETRY"}, {"enabled": true, "identifier": "Mesh 2", "index": 1, "multi_input": true, "name": "Mesh", "type": "GEOMETRY"}, {"enabled": false, "identifier": "Self Intersection", "index": 2, "multi_input": false, "name": "Self Intersection", "type": "BOOLEAN"}, {"enabled": false, "identifier": "Hole Tolerant", "index": 3, "multi_input": false, "name": "Hole Tolerant", "type": "BOOLEAN"}], "operation": "UNION", "outputs": [{"enabled": true, "identifier": "Mesh", "index": 0, "name": "Mesh", "type": "GEOMETRY"}, {"enabled": false, "identifier": "Intersecting Edges", "index": 1, "name": "Intersecting Edges", "type": "BOOLEAN"}], "resolution_unambiguous": true, "resolved_geometry_output": {"identifier": "Mesh", "name": "Mesh", "type": "GEOMETRY"}, "run_id": "EXP-BPY-006-GN-DIAG-20261102T190420Z"}
+Blender 5.4.0 Alpha (hash 745ab9a3e3c5 built 2026-10-30 01:37:17)
+
+Blender quit
+
+RUN_META {"blender_executable": "/Applications/Blender.app/Contents/MacOS/Blender", "blender_executable_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80", "blender_version": "Blender 5.4.0 Alpha", "command": ["/Applications/Blender.app/Contents/MacOS/Blender", "--background", "--factory-startup", "--disable-autoexec", "--python-exit-code", "1", "--python", "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/scripts/inspect_boolean_api.py", "--", "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/evidencias/api_socket_inventory.json"], "cwd": "/Users/yayo/Projects/blender-poc", "duration_ms": 648.077, "end_utc": "2026-11-02T19:04:46.497+00:00", "exit_code": 0, "label": "api_inspection", "log": "experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/logs/api_inspection.log", "profile_isolated": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-DIAG-20261102T190420Z/profiles/api_inspection", "run_id": "EXP-BPY-006-GN-DIAG-20261102T190420Z", "start_utc": "2026-11-02T19:04:45.849+00:00", "version_command_exit_code": 0}

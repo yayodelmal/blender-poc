@@ -1,0 +1,69 @@
+{
+  "run_id": "EXP-BPY-006-A-CANARY-20261102T212457Z",
+  "repository": {
+    "path": "/Users/yayo/Projects/blender-poc",
+    "branch": "main",
+    "access": "read/write in experiment directory; existing Git metadata readable"
+  },
+  "integrity_registry": {
+    "path": "experimentos/EXP-BPY-006/registro_artefactos.jsonl",
+    "verification": "PASS",
+    "verified_records": 6
+  },
+  "blender": {
+    "path": "/Applications/Blender.app/Contents/MacOS/Blender",
+    "version": "Blender 5.4.0 Alpha",
+    "build_hash": "745ab9a3e3c5",
+    "sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80",
+    "adr": "docs/05_decisiones/ADR-0002_politica_blender_alpha.md",
+    "adr_hash_match": true
+  },
+  "immutable_references": [
+    {
+      "role": "EXP-BPY-003 master",
+      "path": "experimentos/EXP-BPY-003/artifacts/EXP-BPY-003-20261102T144300Z_relief_plate_master.blend",
+      "sha256_before": "09f7ee7c1ac207df00b1e8494e41b39a0c1eec4e048edbfcac61b71fd998495b"
+    },
+    {
+      "role": "EXP-BPY-006 A baseline candidate",
+      "path": "experimentos/EXP-BPY-006/artifacts/EXP-BPY-006-20261102T175526Z_A_bpy_v2.blend",
+      "sha256_before": "d01c9f2c87e37e5e69b51a1f7b8704f78480243b8a12c15b9ae8e0da07b05239",
+      "recorded_validation": "PASS"
+    },
+    {
+      "role": "original A generator",
+      "path": "experimentos/EXP-BPY-006/scripts/build_candidates.py",
+      "sha256": "3c5b9068cc6d549418008dca6f6d3a0d5442d2dc8ab78cb3626710fe6626bf1a"
+    }
+  ],
+  "canary_parameters_mm": {
+    "width_mm": 80.0,
+    "height_mm": 60.0,
+    "base_mm": 4.0,
+    "relief_mm": 1.0,
+    "brick_x_mm": 14.8,
+    "brick_y_mm": 7.0,
+    "joint_mm": 1.2,
+    "pitch_x_mm": 16.0,
+    "pitch_y_mm": 8.2,
+    "rows": 6,
+    "columns_even": 5,
+    "columns_odd": 4
+  },
+  "baseline_parameters_mm": {
+    "brick_x_mm": 15.0,
+    "brick_y_mm": 7.0,
+    "joint_mm": 1.2,
+    "pitch_x_mm": 16.2,
+    "pitch_y_mm": 8.2,
+    "rows": 6,
+    "columns_even": 5,
+    "columns_odd": 4
+  },
+  "preflight_utc": "2026-11-02T21:24:57Z",
+  "notes": [
+    "The run directory is new and isolated from historical experiment directories.",
+    "The original generator was copied; only RUN, brick_x_mm, and pitch_x_mm differ.",
+    "The canary is diagnostic only and does not change the approved 15x7 mm contract."
+  ]
+}

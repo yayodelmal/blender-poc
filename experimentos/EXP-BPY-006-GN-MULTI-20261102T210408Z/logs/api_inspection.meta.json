@@ -1,0 +1,27 @@
+{
+  "run_id": "EXP-BPY-006-GN-MULTI-20261102T210408Z",
+  "label": "api_inspection",
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "experimentos/EXP-BPY-006-GN-MULTI-20261102T210408Z/scripts/inspect_boolean_multi_api.py",
+    "--",
+    "experimentos/EXP-BPY-006-GN-MULTI-20261102T210408Z/evidencias/api_socket_inventory.json"
+  ],
+  "cwd": "/Users/yayo/Projects/blender-poc",
+  "blender_version": "Blender 5.4.0 Alpha",
+  "blender_executable": "/Applications/Blender.app/Contents/MacOS/Blender",
+  "blender_executable_sha256": "732d39142f70aace84432327f1b358aeb9316e75476beb9ce1e3aa2cb2748c80",
+  "profile_isolated": "/Users/yayo/Projects/blender-poc/experimentos/EXP-BPY-006-GN-MULTI-20261102T210408Z/profiles/api_inspection",
+  "version_command_exit_code": 0,
+  "start_utc": "2026-11-02T21:04:56.307+00:00",
+  "end_utc": "2026-11-02T21:04:56.963+00:00",
+  "duration_ms": 656.199,
+  "exit_code": 2,
+  "log": "experimentos/EXP-BPY-006-GN-MULTI-20261102T210408Z/logs/api_inspection.log"
+}

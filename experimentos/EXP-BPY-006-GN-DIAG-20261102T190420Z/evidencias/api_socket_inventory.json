@@ -1,0 +1,68 @@
+{
+  "run_id": "EXP-BPY-006-GN-DIAG-20261102T190420Z",
+  "blender_version": "5.4.0 Alpha",
+  "operation": "UNION",
+  "inputs": [
+    {
+      "index": 0,
+      "name": "Mesh 1",
+      "identifier": "Mesh 1",
+      "type": "GEOMETRY",
+      "multi_input": false,
+      "enabled": false
+    },
+    {
+      "index": 1,
+      "name": "Mesh",
+      "identifier": "Mesh 2",
+      "type": "GEOMETRY",
+      "multi_input": true,
+      "enabled": true
+    },
+    {
+      "index": 2,
+      "name": "Self Intersection",
+      "identifier": "Self Intersection",
+      "type": "BOOLEAN",
+      "multi_input": false,
+      "enabled": false
+    },
+    {
+      "index": 3,
+      "name": "Hole Tolerant",
+      "identifier": "Hole Tolerant",
+      "type": "BOOLEAN",
+      "multi_input": false,
+      "enabled": false
+    }
+  ],
+  "outputs": [
+    {
+      "index": 0,
+      "name": "Mesh",
+      "identifier": "Mesh",
+      "type": "GEOMETRY",
+      "enabled": true
+    },
+    {
+      "index": 1,
+      "name": "Intersecting Edges",
+      "identifier": "Intersecting Edges",
+      "type": "BOOLEAN",
+      "enabled": false
+    }
+  ],
+  "geometry_output_candidates": [
+    {
+      "name": "Mesh",
+      "identifier": "Mesh",
+      "type": "GEOMETRY"
+    }
+  ],
+  "resolved_geometry_output": {
+    "name": "Mesh",
+    "identifier": "Mesh",
+    "type": "GEOMETRY"
+  },
+  "resolution_unambiguous": true
+}
