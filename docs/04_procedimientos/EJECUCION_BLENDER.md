@@ -31,3 +31,18 @@
 
 - Blender 5.2.3 LTS: código 139 por Metal en background. Sin solución verificada.
 - `ARCH_WARN: ARCH_CACHE_LINE_SIZE` de la dependencia USD: se observa en todos los procesos de la Alpha, sin efecto detectado.
+
+## Herramientas compartidas (desde 2026-11-03)
+
+Sustituyen la copia de `run_blender.py` por experimento. Los experimentos anteriores conservan la suya; no se tocan.
+
+| Herramienta | Uso |
+|---|---|
+| `herramientas/lanzar_blender.py CARPETA_RUN ETIQUETA SCRIPT [args]` | Lanza Blender con los flags de este documento, hash del ejecutable verificado, perfil aislado en `CARPETA_RUN/profiles/ETIQUETA` y log + `.meta.json` por proceso. No sobrescribe un log existente. |
+| `herramientas/validar_malla.py` (vía el lanzador) | Valida en otro proceso: mesh único, envolvente en mm, componentes, manifold, orientación, volumen y degenerados; con `--cavidad X,Y,Z` mide también el hueco interior (paredes, piso, tapa abierta). Sale con código 2 si falla. |
+| `herramientas/sellar_carpeta.py CARPETA_RUN --validation PASS` | Sella `artifacts/`, `evidencias/`, `scripts/` y `logs/` con `sellar_artefacto.py` y verifica. No se reescribe un registro existente. |
+| `herramientas/exportar_stl.py export\|verify` (vía el lanzador) | STL con escala 1000 y verificación por reimportación; `--import-scale 0.01` es el control negativo y debe fallar. |
+| `herramientas/aplicar_material.py` | Ruta corta para cambios solo de apariencia. |
+
+Skills de proyecto que las usan: `.claude/skills/blender-*`.
+
