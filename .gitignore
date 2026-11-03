@@ -5,3 +5,7 @@
 # Disposable Blender user profiles created for isolated experiments
 **/profiles/
 **/profile/
+
+# Copias de seguridad que Blender crea al guardar sobre un .blend, y caches de Python
+*.blend1
+__pycache__/
