@@ -1,0 +1,93 @@
+{
+  "blender_version": "5.4.0 Alpha",
+  "branches": [
+    {
+      "bounds_mm": [
+        [
+          -74.00000095367432,
+          74.00000095367432
+        ],
+        [
+          -74.00000095367432,
+          74.00000095367432
+        ],
+        [
+          0.0,
+          60.00000238418579
+        ]
+      ],
+      "components": 1,
+      "faces": 12,
+      "label": "shell_after_difference",
+      "manifold": true,
+      "vertices": 16,
+      "volume_mm3": 661056.053776027
+    },
+    {
+      "bounds_mm": [
+        [
+          -75.00001043081284,
+          75.00001043081284
+        ],
+        [
+          -75.00001043081284,
+          75.00001043081284
+        ],
+        [
+          1.9000000320374966,
+          8.899999782443047
+        ]
+      ],
+      "components": 28,
+      "faces": 280,
+      "label": "shell_plus_one_course_36_boxes",
+      "manifold": true,
+      "vertices": 336,
+      "volume_mm3": 3528.015925973746
+    },
+    {
+      "bounds_mm": [
+        [
+          -75.00001043081284,
+          75.00001043081284
+        ],
+        [
+          -75.00001043081284,
+          75.00001043081284
+        ],
+        [
+          1.9000000320374966,
+          58.10000002384186
+        ]
+      ],
+      "components": 209,
+      "faces": 2091,
+      "label": "shell_plus_all_courses_264_boxes",
+      "manifold": false,
+      "vertices": 2511,
+      "volume_mm3": 26312.011692332595
+    }
+  ],
+  "note": "No .blend was saved; all branches were measured in memory and in this diagnostic process.",
+  "pattern": {
+    "end_piece_length_mm": [
+      16.7,
+      8.600000000000001,
+      16.7,
+      8.600000000000001,
+      16.7,
+      8.600000000000001,
+      16.7
+    ],
+    "segments_per_course": [
+      9,
+      10,
+      9,
+      10,
+      9,
+      10,
+      9
+    ]
+  },
+  "run_id": "CU-01-DIAG-BOOLEAN-20261102T220718Z"
+}

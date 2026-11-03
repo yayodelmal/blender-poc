@@ -1,0 +1,32 @@
+{
+  "after": {
+    "components": 1,
+    "dimensions_mm": [
+      149.00001138448715,
+      148.00000190734863,
+      60.00000238418579
+    ],
+    "faces": 363,
+    "label": "shell_plus_66_bricks_one_face",
+    "manifold": true,
+    "vertices": 572,
+    "volume_mm3": 667812.5171519439
+  },
+  "before": {
+    "components": 1,
+    "dimensions_mm": [
+      148.00000190734863,
+      148.00000190734863,
+      60.00000238418579
+    ],
+    "faces": 12,
+    "label": "shell",
+    "manifold": true,
+    "vertices": 16,
+    "volume_mm3": 661056.053776027
+  },
+  "blender_version": "5.4.0 Alpha",
+  "note": "in-memory only; no .blend saved",
+  "operand_components": 66,
+  "run_id": "CU-01-DIAG-BOOLEAN-20261102T220718Z"
+}

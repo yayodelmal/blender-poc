@@ -1,0 +1,152 @@
+{
+  "blender_version": "5.4.0 Alpha",
+  "observations": [
+    {
+      "bounds_mm": [
+        [
+          -74.00000095367432,
+          74.00000095367432
+        ],
+        [
+          -74.00000095367432,
+          74.00000095367432
+        ],
+        [
+          0.0,
+          60.00000238418579
+        ]
+      ],
+      "components": 16,
+      "label": "hollow_shell_before_union",
+      "mesh_faces": 12,
+      "mesh_vertices": 16,
+      "object": "CU01_Planter_REV001",
+      "volume_mm3": 661056.053776027
+    },
+    {
+      "bounds_mm": [
+        [
+          73.80000501871109,
+          75.00001043081284
+        ],
+        [
+          -74.00000095367432,
+          -57.30000138282776
+        ],
+        [
+          1.9000000320374966,
+          8.899999782443047
+        ]
+      ],
+      "components": 8,
+      "label": "one_brick_operand",
+      "mesh_faces": 6,
+      "mesh_vertices": 8,
+      "object": "OneBrickOperand",
+      "volume_mm3": 140.280624067889
+    },
+    {
+      "bounds_mm": [
+        [
+          -74.00000095367432,
+          75.00001043081284
+        ],
+        [
+          -74.00000095367432,
+          74.00000095367432
+        ],
+        [
+          0.0,
+          60.00000238418579
+        ]
+      ],
+      "components": 26,
+      "label": "hollow_shell_with_unapplied_union",
+      "mesh_faces": 18,
+      "mesh_vertices": 26,
+      "object": "CU01_Planter_REV001",
+      "volume_mm3": 661172.9548767323
+    },
+    {
+      "active_object": "CU01_Planter_REV001",
+      "apply_result": [
+        "FINISHED"
+      ],
+      "label": "modifier_apply_context"
+    },
+    {
+      "bounds_mm": [
+        [
+          -74.00000095367432,
+          75.00001043081284
+        ],
+        [
+          -74.00000095367432,
+          74.00000095367432
+        ],
+        [
+          0.0,
+          60.00000238418579
+        ]
+      ],
+      "components": 26,
+      "label": "hollow_shell_after_applied_union",
+      "mesh_faces": 18,
+      "mesh_vertices": 26,
+      "object": "CU01_Planter_REV001",
+      "volume_mm3": 661172.9548767323
+    },
+    {
+      "bounds_mm": [
+        [
+          -74.00000095367432,
+          75.00001043081284
+        ],
+        [
+          -74.00000095367432,
+          74.00000095367432
+        ],
+        [
+          0.0,
+          60.00000238418579
+        ]
+      ],
+      "components": 18,
+      "label": "solid_target_with_unapplied_union",
+      "mesh_faces": 12,
+      "mesh_vertices": 18,
+      "object": "SolidPlateTarget",
+      "volume_mm3": 1314356.987198424
+    },
+    {
+      "active_object": "SolidPlateTarget",
+      "apply_result": [
+        "FINISHED"
+      ],
+      "label": "solid_modifier_apply_context"
+    },
+    {
+      "bounds_mm": [
+        [
+          -74.00000095367432,
+          75.00001043081284
+        ],
+        [
+          -74.00000095367432,
+          74.00000095367432
+        ],
+        [
+          0.0,
+          60.00000238418579
+        ]
+      ],
+      "components": 18,
+      "label": "solid_target_after_applied_union",
+      "mesh_faces": 12,
+      "mesh_vertices": 18,
+      "object": "SolidPlateTarget",
+      "volume_mm3": 1314356.987198424
+    }
+  ],
+  "run_id": "CU-01-DIAG-BOOLEAN-20261102T220718Z"
+}

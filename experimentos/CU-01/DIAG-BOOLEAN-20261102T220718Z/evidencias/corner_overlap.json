@@ -1,0 +1,158 @@
+{
+  "blender_version": "5.4.0 Alpha",
+  "branches": [
+    {
+      "after": {
+        "bounds_mm": [
+          [
+            -74.00000095367432,
+            75.00001043081284
+          ],
+          [
+            -74.00000095367432,
+            74.00000095367432
+          ],
+          [
+            0.0,
+            60.00000238418579
+          ]
+        ],
+        "components": 1,
+        "faces": 60,
+        "label": "one_face_after",
+        "manifold": true,
+        "vertices": 92,
+        "volume_mm3": 662024.8629461327
+      },
+      "before": {
+        "bounds_mm": [
+          [
+            -74.00000095367432,
+            74.00000095367432
+          ],
+          [
+            -74.00000095367432,
+            74.00000095367432
+          ],
+          [
+            0.0,
+            60.00000238418579
+          ]
+        ],
+        "components": 1,
+        "faces": 12,
+        "label": "one_face_shell_before",
+        "manifold": true,
+        "vertices": 16,
+        "volume_mm3": 661056.053776027
+      },
+      "sides": [
+        "east"
+      ]
+    },
+    {
+      "after": {
+        "bounds_mm": [
+          [
+            -75.00001043081284,
+            75.00001043081284
+          ],
+          [
+            -74.00000095367432,
+            74.00000095367432
+          ],
+          [
+            0.0,
+            60.00000238418579
+          ]
+        ],
+        "components": 1,
+        "faces": 108,
+        "label": "opposite_faces_after",
+        "manifold": true,
+        "vertices": 168,
+        "volume_mm3": 662993.6721162377
+      },
+      "before": {
+        "bounds_mm": [
+          [
+            -74.00000095367432,
+            74.00000095367432
+          ],
+          [
+            -74.00000095367432,
+            74.00000095367432
+          ],
+          [
+            0.0,
+            60.00000238418579
+          ]
+        ],
+        "components": 1,
+        "faces": 12,
+        "label": "opposite_faces_shell_before",
+        "manifold": true,
+        "vertices": 16,
+        "volume_mm3": 661056.053776027
+      },
+      "sides": [
+        "east",
+        "west"
+      ]
+    },
+    {
+      "after": {
+        "bounds_mm": [
+          [
+            -74.00000095367432,
+            75.00001043081284
+          ],
+          [
+            -74.00000095367432,
+            75.00001043081284
+          ],
+          [
+            1.9000000320374966,
+            8.899999782443047
+          ]
+        ],
+        "components": 16,
+        "faces": 160,
+        "label": "adjacent_faces_after",
+        "manifold": true,
+        "vertices": 192,
+        "volume_mm3": 2044.5692111226597
+      },
+      "before": {
+        "bounds_mm": [
+          [
+            -74.00000095367432,
+            74.00000095367432
+          ],
+          [
+            -74.00000095367432,
+            74.00000095367432
+          ],
+          [
+            0.0,
+            60.00000238418579
+          ]
+        ],
+        "components": 1,
+        "faces": 12,
+        "label": "adjacent_faces_shell_before",
+        "manifold": true,
+        "vertices": 16,
+        "volume_mm3": 661056.053776027
+      },
+      "sides": [
+        "east",
+        "north"
+      ]
+    }
+  ],
+  "course_added_volume_one_face_mm3": 968.8,
+  "expected_shell_volume_mm3": 661056.0,
+  "note": "In-memory diagnostic only; no .blend saved.",
+  "run_id": "CU-01-DIAG-BOOLEAN-20261102T220718Z"
+}
